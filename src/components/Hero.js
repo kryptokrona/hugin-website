@@ -18,16 +18,22 @@ const Container = styled.div`
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
   @media screen and (max-width: 400px) {
     padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
   }
 `
 
 const TextContent = styled.div`
   max-width: 600px;
+  padding-right: 30px;
 `
 
 
@@ -84,7 +90,14 @@ const BorderButton = styled.a`
 `
 
 const HeroImg = styled.img`
-    
+  width: 110%;
+  max-width: 600px;
+
+  @media screen and (max-width: 1000px) {
+    margin-top: 60px;
+    width: 120%;
+    max-width: 700px;
+  }
 `
 
 const Hero = () => {
@@ -99,10 +112,10 @@ const Hero = () => {
                         the possibility to read them.</Text>
                     <ButtonWrapper>
                         <Button onClick={() => scrollTo('#download')}>Download</Button>
-                        <BorderButton id="home">Whitepaper</BorderButton>
+                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf" id="home">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
-                <HeroImg src=""/>
+                <HeroImg src="https://user-images.githubusercontent.com/3246908/118410333-273fc000-b68f-11eb-8883-77f42f4c1558.png"/>
             </Container>
         </Section>
     )
