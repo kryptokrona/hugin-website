@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes rgb {
+    0%, 100% {
+        background: #5f86f2;
+    }
+    12.5% {
+        background: #a65ff2;
+    }
+    25% {
+        background: #f25fd0;
+    }
+    37.5% {
+        background: #f25f61;
+    }
+    50% {
+        background: #f2cb5f;
+    }
+    62.5% {
+        background: #abf25f;
+    }
+    75% {
+        background: #5ff281;
+    }
+    87.5% {
+        background: #5ff2f0;
+    }
+}
+.rgb {
+
+    background: #5f86f2;
+    -webkit-animation: rgb 5s ease infinite;
+    -moz-animation: rgb 5s ease infinite;
+    animation: rgb 5s ease infinite;
+}
