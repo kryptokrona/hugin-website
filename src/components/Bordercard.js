@@ -72,17 +72,17 @@ const BorderCard = () => {
         <Section>
             <CardWrapper>
                 <Card>
-                    <AiOutlineMessage size="3em" color="rgba(255, 255, 255, 0.4)"/>
+                    <AiOutlineMessage size="2em" color="#5f86f2"/>
                     <Title>Lorem</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
                 <Card>
-                    <AiOutlineEyeInvisible size="3em" color="rgba(255, 255, 255, 0.4)"/>
+                    <AiOutlineEyeInvisible size="2em" color="#a65ff2"/>
                     <Title>Ipsum</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </Text>
                 </Card>
                 <Card>
-                    <AiOutlineLock size="3em" color="rgba(255, 255, 255, 0.4)"/>
+                    <AiOutlineLock size="2em" color="f25fd0"/>
                     <Title>Centuri</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
