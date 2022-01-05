@@ -82,6 +82,7 @@ const BorderButton = styled.a`
   color: rgba(255, 255, 255, 0.85);
   font-weight: 600;
   transition: 250ms;
+  text-decoration: none;
   
   &:hover {
     cursor: pointer;
