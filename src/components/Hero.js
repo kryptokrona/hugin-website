@@ -20,6 +20,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
+
+  @media screen and (max-width: 400px) {
+    padding: 0 20px;
+  }
 `
 
 const TextContent = styled.div`

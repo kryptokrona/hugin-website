@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Nav = styled.div`
   display: flex;
@@ -24,6 +23,10 @@ const NavWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 400px) {
+    padding: 20px 20px;
+  }
 `
 const Brand = styled.a`
   font-size: 24px;
@@ -43,16 +46,6 @@ const Navigation = styled.div`
   flex-direction: row;
   align-items: center;
   gap: 10px;
-`
-
-const Navlink = styled.a`
-  color: white;
-  font-weight: 400;
-
-  &:hover {
-    color: rgba(255, 255, 255, 0.58);
-    cursor: pointer;
-  }
 `
 
 const NavButton = styled.a`

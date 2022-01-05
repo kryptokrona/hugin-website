@@ -20,6 +20,10 @@ const Container = styled.div`
 const Wrapper = styled.div`
     display: flex;
   gap: 100px;
+  
+  @media screen and (max-width: 400px) {
+    gap: 60px;
+  }
 `
 const Title = styled.h2`
   color: white;

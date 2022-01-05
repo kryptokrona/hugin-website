@@ -27,6 +27,10 @@ const CardWrapper = styled.div`
     flex-direction: column;
     gap: 40px;
   }
+
+  @media screen and (max-width: 400px) {
+    padding: 20px 20px;
+  }
 `
 
 const Card = styled.div`
@@ -39,6 +43,11 @@ const Card = styled.div`
   @media screen and (max-width: 1024px) {
     width: auto;
     height: 200px;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: auto;
+    height: 280px;
   }
 `;
 
