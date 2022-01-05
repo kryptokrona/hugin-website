@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Section = styled.div`
   display: flex;
@@ -19,6 +20,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
+`
+
+const TextContent = styled.div`
+  max-width: 600px;
 `
 
 
@@ -73,19 +78,26 @@ const BorderButton = styled.a`
   }
 `
 
+const HeroImg = styled.img`
+    
+`
+
 const Hero = () => {
     return (
         <Section>
             <Container>
-                <SubTitle>Powered by Kryptokrona</SubTitle>
-                <Title>Welcome to Hugin Messenger</Title>
-                <Text>Hugin is a messaging service where messages are stored on the kryptokrona blockchain. Your
-                    messages are secured with industry leading encryption so that only you and your chat partner have
-                    the possibility to read them.</Text>
-                <ButtonWrapper>
-                    <Button>Download</Button>
-                    <BorderButton>Whitepaper</BorderButton>
-                </ButtonWrapper>
+                <TextContent>
+                    <SubTitle>Powered by Kryptokrona</SubTitle>
+                    <Title>Welcome to Hugin Messenger</Title>
+                    <Text>Hugin is a messaging service where messages are stored on the kryptokrona blockchain. Your
+                        messages are secured with industry leading encryption so that only you and your chat partner have
+                        the possibility to read them.</Text>
+                    <ButtonWrapper>
+                        <Button onClick={() => scrollTo('#download')}>Download</Button>
+                        <BorderButton id="home">Whitepaper</BorderButton>
+                    </ButtonWrapper>
+                </TextContent>
+                <HeroImg src=""/>
             </Container>
         </Section>
     )

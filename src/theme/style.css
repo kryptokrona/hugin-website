@@ -38,3 +38,7 @@ body {
     -moz-animation: rgb 5s ease infinite;
     animation: rgb 5s ease infinite;
 }
+
+.hover:hover {
+    color: rgba(255, 255, 255, 0.51);
+}

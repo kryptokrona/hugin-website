@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Nav = styled.div`
   display: flex;
@@ -29,6 +30,7 @@ const Brand = styled.a`
   color: white;
   font-weight: 400;
   transition: 250ms;
+  text-decoration: none;
 
   &:hover {
     cursor: pointer;
@@ -75,7 +77,7 @@ const Rgb = styled.div`
 
 const Navbar = () => {
     return(
-        <Nav>
+        <Nav id="home">
             <Rgb className="rgb"/>
             <NavWrapper>
                 <Brand>Hugin</Brand>
@@ -86,5 +88,7 @@ const Navbar = () => {
         </Nav>
     )
 }
+
+
 
 export default Navbar
