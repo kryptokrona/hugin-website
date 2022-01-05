@@ -12,7 +12,7 @@ const Nav = styled.div`
   position: fixed;
   top: 0;
   margin-top: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 `
 
 const NavWrapper = styled.div`

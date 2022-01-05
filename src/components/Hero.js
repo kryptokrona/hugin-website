@@ -7,9 +7,9 @@ const Section = styled.div`
   justify-content: center;
   align-items: start;
   width: 100%;
-  height: 100vh;
   background-color: #1d1d1d;
   padding-top: 15em;
+  padding-bottom: 15em;
 `
 
 const Container = styled.div`
@@ -42,7 +42,8 @@ const SubTitle = styled.p`
 
 const Text = styled.p`
   font-family: 'Roboto Mono', monospace;
-  color: rgba(255, 255, 255, 0.79);
+  color: rgba(255, 255, 255, 0.80);
+  line-height: 1.75rem;
 `
 
 const ButtonWrapper = styled.div`
