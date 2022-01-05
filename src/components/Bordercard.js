@@ -9,6 +9,7 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
 `
 
 const CardWrapper = styled.div`
@@ -31,13 +32,13 @@ const CardWrapper = styled.div`
 const Card = styled.div`
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 35px;
+  padding: 30px;
   width: 250px;
   height: 250px;
   
   @media screen and (max-width: 1024px) {
     width: auto;
-    height: 180px;
+    height: 200px;
   }
 `;
 

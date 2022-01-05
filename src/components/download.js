@@ -10,11 +10,12 @@ const Section = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #1d1d1d;
+  padding-bottom: 100px;
 `
 const Container = styled.div`
-    max-width: 1200px;
+  padding: 100px 0;
+  max-width: 1200px;
   box-sizing: border-box;
-  padding-bottom: 200px;
 `
 const Wrapper = styled.div`
     display: flex;
