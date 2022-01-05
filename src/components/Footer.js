@@ -5,19 +5,16 @@ import {FaDiscord, FaTelegram, FaTwitter} from 'react-icons/fa'
 const Section = styled.footer`
   border-top: 1px solid rgba(255, 255, 255, 0.13);
   width: 100%;
-  height: 250px;
   background-color: #1d1d1d;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
 `
 
 const Container = styled.div`
   max-width: 1200px;
-  padding: 0 40px;
-  padding-top: 30px;
+  padding: 40px 40px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -26,6 +23,8 @@ const Container = styled.div`
 
   @media screen and (max-width: 580px) {
     flex-direction: column;
+    padding: 60px 20px;
+    
   }
 `
 
@@ -43,6 +42,11 @@ const ListWrapper = styled.div`
 const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 580px) {
+    justify-content: center;
+    margin-top: 50px;
+  }
 `
 
 const SocialsWrapper = styled.div`
