@@ -27,8 +27,8 @@ const CardWrapper = styled.div`
   background-color: #1d1d1d;
   gap: 10px;
   
-  @media screen and (max-width: 1024px) {
-    flex-direction: column;
+  @media screen and (max-width: 1029px) {
+    flex-direction: row;
   }
 
   @media screen and (max-width: 400px) {
@@ -39,25 +39,53 @@ const CardWrapper = styled.div`
 const Card = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 24%;
   padding: 40px;
-  width: 15%;
-  height: 310px;
+  height: 280px;
   transition: all 250ms;
+
   
-  @media screen and (max-width: 1024px) {
-    width: 33;
+  @media screen and (max-width: 1029px) {
+    width: 90%;
     height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-  @media screen and (max-width: 400px) {
-    width: auto;
-    height: 280px;
+  @media screen and (max-width: 589px) {
+    width: 90%;
+    height: 260px;
+    flex-direction: column;
+    justify-content: space-around;
   }
 `;
 
+const TextContent = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 1029px) {
+    margin-left: 20px;
+    width: 50%;
+    justify-content: space-between;
+
+  }
+
+  @media screen and (max-width: 589px) {
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0;
+
+  }
+  
+`
+
 const Title = styled.h4`
+  text-align: center;
   font-size: 24px;
   font-weight: 400;
   margin:0;
@@ -66,6 +94,7 @@ const Title = styled.h4`
 `;
 
 const Text = styled.p`
+  text-align: center;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.6);
   font-family: roboto mono;
@@ -73,7 +102,8 @@ const Text = styled.p`
 `;
 
 const CardImage = styled.img`
-  width: 100%;
+  width: 100px;
+  height: 80px;
   margin-bottom: 20px;
 `
 
@@ -84,23 +114,24 @@ const BorderCard = () => {
             <CardWrapper>
                 <Card>
                     <CardImage src={Bubble}/>
-                    <Title>Speak Freely</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    <TextContent>
+                        <Title>Speak Freely</Title>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </TextContent>
                 </Card>
                 <Card>
                     <CardImage src={Eye}/>
-                    <Title>Privacy</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </Text>
-                </Card>
-                <Card>
-                    <CardImage src={Numbers}/>
-                    <Title>Encryped</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
+                    <TextContent>
+                        <Title>Privacy</Title>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </TextContent>
                 </Card>
                 <Card>
                     <CardImage src={Dots}/>
-                    <Title>Decentralized</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
+                    <TextContent>
+                        <Title>Decentralized</Title>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
+                    </TextContent>
                 </Card>
             </CardWrapper>
         </Section>
