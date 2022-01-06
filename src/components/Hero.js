@@ -5,6 +5,7 @@ import HuginLogo from '../images/Hugin.png';
 
 
 const Section = styled.div`
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: start;
