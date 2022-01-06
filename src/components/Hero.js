@@ -137,8 +137,8 @@ const Hero = () => {
                         messages are secured with industry leading encryption so that only you and your chat partner have
                         the possibility to read them.</Text>
                     <ButtonWrapper>
-                        <Button onClick={() => scrollTo('#download')}>Download</Button>
-                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Whitepaper</BorderButton>
+                        <Button data-splitbee-event="Download" onClick={() => scrollTo('#download')}>Download</Button>
+                        <BorderButton data-splitbee-event="Whitepaper" href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
