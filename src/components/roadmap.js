@@ -141,7 +141,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "0%"}}>
+                            <Progress  style={{width: "0%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -152,7 +152,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "0%"}}>
+                            <Progress  style={{width: "0%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -163,7 +163,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "0%"}}>
+                            <Progress  style={{width: "0%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -174,7 +174,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Android Beta</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "40%"}}>
+                            <Progress  style={{width: "40%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -185,7 +185,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Close</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "80%"}}>
+                            <Progress  style={{width: "80%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -196,7 +196,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Close</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "80%"}}>
+                            <Progress  style={{width: "80%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
