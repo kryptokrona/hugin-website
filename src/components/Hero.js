@@ -11,7 +11,7 @@ const Section = styled.div`
   width: 100%;
   background-color: #1d1d1d;
   padding-top: 15em;
-  padding-bottom: 15em;
+  padding-bottom: 10em;
 `
 
 const Container = styled.div`

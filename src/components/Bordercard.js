@@ -11,7 +11,6 @@ const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
 `
 
 const CardWrapper = styled.div`
