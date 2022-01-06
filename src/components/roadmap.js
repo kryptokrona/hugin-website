@@ -19,6 +19,10 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   gap: 40px;
   transition: all 250ms;
+
+  @media screen and (max-width: 579px) {
+    padding: 0 20px;
+  }
   
 `
 
