@@ -33,6 +33,7 @@ const Title = styled.h2`
   font-weight: 400;
 `
 
+
 const Download = () => {
 
     useEffect((file) => {
@@ -64,9 +65,9 @@ const Download = () => {
             <Container>
                 <Title>Choose your OS</Title>
                 <Wrapper>
-                    <a id='latest_win' href=''><FaWindows size="3em" color="#fff"/></a>
-                    <a id='latest_mac' href=''><FaApple size="3em" color="#fff"/></a>
-                    <a id='latest_lin' href=''><FaLinux size="3em" color="#fff"/></a>
+                    <a id='latest_win' data-splitbee-event="Download Windows" href='/#'><FaWindows aria-label="Download Windows" size="3em" color="#fff"/></a>
+                    <a id='latest_mac' data-splitbee-event="Download MacOS" href='/#'><FaApple  aria-label="Download MacOS" size="3em" color="#fff"/></a>
+                    <a id='latest_lin' data-splitbee-event="Download Linux" href='/#'><FaLinux aria-label="Download Linux" size="3em" color="#fff"/></a>
                 </Wrapper>
             </Container>
         </Section>
