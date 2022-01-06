@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "hugin-chat",
+    siteUrl: "https://hugin.chat",
+    title: "Hugin Messenger",
   },
   plugins: [
     "gatsby-plugin-emotion",
