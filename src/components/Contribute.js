@@ -191,7 +191,7 @@ const Contribute =() => {
                         for example make changes to this site, suggest awesome new features,
                         or help us squash bugs. Not a developer? No worries, there's tons of
                         things to do!</Text>
-                    <Button>Github <FaGithub size="2em"/></Button>
+                    <Button href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></Button>
                 </TextWrapper>
                 <CardWrapper>
                     <SubTitle>Latest Commit</SubTitle>
