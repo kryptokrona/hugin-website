@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
+import HuginImage from '../images/HuginMessenger.png'
 
 const Section = styled.div`
   background-color: #1d1d1d;
@@ -22,7 +23,7 @@ const Screenshot = () => {
     return(
         <Section>
             <ImageWrapper>
-                <Image/>
+                <Image src={HuginImage}/>
             </ImageWrapper>
         </Section>
     )
