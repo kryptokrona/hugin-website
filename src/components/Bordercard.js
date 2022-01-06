@@ -29,6 +29,7 @@ const CardWrapper = styled.div`
   
   @media screen and (max-width: 1029px) {
     flex-direction: row;
+    gap: 30px;
   }
 
   @media screen and (max-width: 400px) {
