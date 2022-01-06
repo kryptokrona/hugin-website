@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from "@emotion/styled";
 
 const Nav = styled.div`
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
