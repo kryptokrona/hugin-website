@@ -27,7 +27,7 @@ const Wrapper = styled.div`
   }
 `
 const Title = styled.h2`
-  color: rgba(255, 255, 255, 0.53);
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-bottom: 100px;
   font-weight: 400;

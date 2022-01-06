@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import scrollTo from 'gatsby-plugin-smoothscroll';
 import HuginLogo from '../images/Hugin.png';
 
 
@@ -16,7 +15,7 @@ const Section = styled.div`
 `
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0 40px;
   width: 100%;
   box-sizing: border-box;
@@ -40,6 +39,10 @@ const TextContent = styled.div`
 
   @media screen and (max-width: 1000px) {
     order: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
   }
 `
 
@@ -68,12 +71,15 @@ const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
 `
 
 const Button = styled.a`
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 10px;
+  padding: 15px 20px;
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
@@ -87,7 +93,7 @@ const Button = styled.a`
 const BorderButton = styled.a`
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.85);
-  padding: 10px;
+  padding: 15px 20px;
   color: rgba(255, 255, 255, 0.85);
   font-weight: 600;
   transition: 250ms;
@@ -96,17 +102,6 @@ const BorderButton = styled.a`
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 10px #fff;
-  }
-`
-
-const HeroImg = styled.img`
-  width: 110%;
-  max-width: 600px;
-
-  @media screen and (max-width: 1000px) {
-    margin-top: 60px;
-    width: 120%;
-    max-width: 700px;
   }
 `
 

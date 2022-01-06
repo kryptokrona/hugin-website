@@ -16,7 +16,7 @@ const Nav = styled.div`
 `
 
 const NavWrapper = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   box-sizing: border-box;
   padding: 20px 40px;
   width: 100%;

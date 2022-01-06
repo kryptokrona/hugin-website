@@ -1,7 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import {FaDiscord, FaTelegram, FaTwitter} from 'react-icons/fa'
-import {useEffect} from "react";
 
 const Section = styled.footer`
   border-top: 1px solid rgba(255, 255, 255, 0.13);
@@ -14,7 +13,7 @@ const Section = styled.footer`
 `
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 40px 40px;
   width: 100%;
   box-sizing: border-box;
@@ -122,9 +121,9 @@ const Footer = () => {
                 <ContentWrapper>
                     <SubTitle>Powered by Kryptokrona</SubTitle>
                     <SocialsWrapper>
-                        <a href="https://twitter.com/kryptokrona"><FaTwitter size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://chat.kryptokrona.se"><FaDiscord size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://t.me/xkrofficial"><FaTelegram size="1.5em" color="#FFFFFF87"/></a>
+                        <a href="https://twitter.com/kryptokrona"><FaTwitter aria-label="Twitter" size="1.5em" color="#FFFFFF87"/></a>
+                        <a href="https://chat.kryptokrona.se"><FaDiscord aria-label="Discord" size="1.5em" color="#FFFFFF87"/></a>
+                        <a href="https://t.me/xkrofficial"><FaTelegram aria-label="Telegram" size="1.5em" color="#FFFFFF87"/></a>
                     </SocialsWrapper>
                 </ContentWrapper>
             </Container>

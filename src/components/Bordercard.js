@@ -1,8 +1,10 @@
-
-
 import * as React from 'react'
 import styled from "@emotion/styled";
 import {AiOutlineMessage, AiOutlineEyeInvisible, AiOutlineLock} from "react-icons/all";
+import Bubble from '../images/Bubble.png'
+import Eye from '../images/Eye.png'
+import Numbers from '../images/Numbers.png'
+import Dots from '../images/Dots.png'
 
 const Section = styled.div`
   background-color: #1d1d1d;
@@ -14,7 +16,7 @@ const Section = styled.div`
 
 const CardWrapper = styled.div`
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   box-sizing: border-box;
   padding: 40px 40px;
   display: flex;
@@ -22,6 +24,7 @@ const CardWrapper = styled.div`
   justify-content: space-between;
   transition: all 250ms;
   background-color: #1d1d1d;
+  gap: 10px;
   
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -73,18 +76,23 @@ const BorderCard = () => {
         <Section>
             <CardWrapper>
                 <Card>
-                    <AiOutlineMessage size="2em" color="#5f86f2"/>
-                    <Title>Lorem</Title>
+                    <Bubble/>
+                    <Title>Speak Freely</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
                 <Card>
                     <AiOutlineEyeInvisible size="2em" color="#a65ff2"/>
-                    <Title>Ipsum</Title>
+                    <Title>Privacy</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </Text>
                 </Card>
                 <Card>
                     <AiOutlineLock size="2em" color="f25fd0"/>
-                    <Title>Centuri</Title>
+                    <Title>Encryped & Uninterruptable</Title>
+                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
+                </Card>
+                <Card>
+                    <AiOutlineMessage size="2em" color="#5f86f2"/>
+                    <Title>Speak Freely</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
             </CardWrapper>

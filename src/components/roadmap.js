@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   box-sizing: border-box;
   padding: 0 40px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -125,7 +125,7 @@ const Progress = styled.div`
 `
 
 const Title = styled.h2`
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   margin-bottom: 100px;
 `
@@ -194,7 +194,7 @@ const Roadmap = () => {
                 <CardCompleted>
                     <TitleDone>Hugin Whitepaper</TitleDone>
                     <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
                             <Progress style={{width: "100%"}}>
                             </Progress>
@@ -205,7 +205,7 @@ const Roadmap = () => {
                 <CardCompleted>
                     <TitleDone>Hugin Boards</TitleDone>
                     <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
                             <Progress style={{width: "100%"}}>
                             </Progress>
@@ -216,7 +216,7 @@ const Roadmap = () => {
                 <CardCompleted>
                     <TitleDone>Hugin Voice</TitleDone>
                     <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
                             <Progress style={{width: "100%"}}>
                             </Progress>
