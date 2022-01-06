@@ -20,6 +20,7 @@ const CardWrapper = styled.div`
   box-sizing: border-box;
   padding: 40px 40px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   transition: all 250ms;
@@ -28,7 +29,6 @@ const CardWrapper = styled.div`
   
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    gap: 40px;
   }
 
   @media screen and (max-width: 400px) {
@@ -37,15 +37,17 @@ const CardWrapper = styled.div`
 `
 
 const Card = styled.div`
+  display: flex;
+  flex-direction: column;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 30px;
-  width: 250px;
-  height: 250px;
+  padding: 40px;
+  width: 15%;
+  height: 310px;
   transition: all 250ms;
   
   @media screen and (max-width: 1024px) {
-    width: auto;
+    width: 33;
     height: 200px;
   }
 
@@ -70,29 +72,34 @@ const Text = styled.p`
   line-height: 1.75rem;
 `;
 
+const CardImage = styled.img`
+  width: 100%;
+  margin-bottom: 20px;
+`
+
 
 const BorderCard = () => {
     return(
         <Section>
             <CardWrapper>
                 <Card>
-                    <Bubble/>
+                    <CardImage src={Bubble}/>
                     <Title>Speak Freely</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
+                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
                 </Card>
                 <Card>
-                    <AiOutlineEyeInvisible size="2em" color="#a65ff2"/>
+                    <CardImage src={Eye}/>
                     <Title>Privacy</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </Text>
                 </Card>
                 <Card>
-                    <AiOutlineLock size="2em" color="f25fd0"/>
-                    <Title>Encryped & Uninterruptable</Title>
+                    <CardImage src={Numbers}/>
+                    <Title>Encryped</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
                 <Card>
-                    <AiOutlineMessage size="2em" color="#5f86f2"/>
-                    <Title>Speak Freely</Title>
+                    <CardImage src={Dots}/>
+                    <Title>Decentralized</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </Text>
                 </Card>
             </CardWrapper>
