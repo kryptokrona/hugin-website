@@ -12,11 +12,22 @@ const Section = styled.div`
 `
 
 const ImageWrapper = styled.div`
-
+  padding: 0 40px;
+  max-width: 1300px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  @media screen and (max-width: 400px) {
+    padding: 0px 20px;
+  }
+  
 `
 
 const Image = styled.img`
-
+  max-width: 1300px;
 `
 
 const Screenshot = () => {
@@ -28,3 +39,5 @@ const Screenshot = () => {
         </Section>
     )
 }
+
+export default Screenshot

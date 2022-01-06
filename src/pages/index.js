@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Download from "../components/download";
 import BorderCard from "../components/Bordercard";
 import Roadmap from "../components/roadmap";
+import Screenshot from "../components/Screenshot";
 
 
 
@@ -12,6 +13,7 @@ const Index = () => {
    <Layout>
        <Hero/>
        <BorderCard/>
+       <Screenshot/>
        <Roadmap/>
        <Download/>
    </Layout>
