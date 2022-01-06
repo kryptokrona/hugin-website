@@ -109,7 +109,7 @@ const Footer = () => {
                     <NavList>
                         <NavTitle>Kryptokrona</NavTitle>
                         <a href="https://kryptokrona.se"><ListItem>Website</ListItem></a>
-                        <a href="hhtps://explorer.kryptokrona.se"><ListItem>Explorer</ListItem></a>
+                        <a href="https://explorer.kryptokrona.se"><ListItem>Explorer</ListItem></a>
                         <a href="https://kryptokrona.se/Proposal_for_a_New_Nordic_Digital_Currency.pdf"><ListItem>Litepaper</ListItem></a>
                     </NavList>
                     <NavList>
