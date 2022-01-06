@@ -7,7 +7,6 @@ module.exports = {
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -18,7 +17,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-smoothscroll",
-    "gatsby-plugin-open-graph-images",
     {
       resolve: "gatsby-source-filesystem",
       options: {
