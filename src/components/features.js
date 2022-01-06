@@ -45,8 +45,7 @@ const Features = () => {
                 <Feature>
                     <TextContent>
                         <Title>Private messages</Title>
-                        <Text> All transactions are private. Users can share view keys to give
-                            trusted parties access to to share account information.</Text>
+                        <Text>buildddd</Text>
                     </TextContent>
                 </Feature>
 

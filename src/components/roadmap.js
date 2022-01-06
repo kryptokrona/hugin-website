@@ -139,7 +139,7 @@ const Roadmap = () => {
                 <CardOngoing>
                     <TitleOngoing>Hugin iOS</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
                             <Progress style={{width: "15%"}}>
                             </Progress>
@@ -150,7 +150,7 @@ const Roadmap = () => {
                 <CardOngoing>
                     <TitleOngoing>Hugin Android</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
                             <Progress style={{width: "40%"}}>
                             </Progress>
@@ -161,7 +161,7 @@ const Roadmap = () => {
                 <CardOngoing>
                     <TitleOngoing>Munin Upgrade</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
                             <Progress style={{width: "90%"}}>
                             </Progress>
@@ -172,7 +172,7 @@ const Roadmap = () => {
                 <CardCompleted>
                     <TitleDone>Hugin Whitepaper</TitleDone>
                     <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
                             <Progress style={{width: "100%"}}>
                             </Progress>
@@ -183,7 +183,7 @@ const Roadmap = () => {
                 <CardCompleted>
                     <TitleDone>Hugin Whitepaper</TitleDone>
                     <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
                             <Progress style={{width: "100%"}}>
                             </Progress>
