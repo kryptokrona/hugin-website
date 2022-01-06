@@ -1,6 +1,8 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import HuginLogo from '../images/Hugin.png';
+
 
 const Section = styled.div`
   display: flex;
@@ -118,7 +120,8 @@ const HuginCircle = styled.div`
 `
 
 const Hugin = styled.img`
-  width: 115%;
+  width: 113%;
+  margin-left: 35px;
 `
 
 
@@ -134,11 +137,11 @@ const Hero = () => {
                         the possibility to read them.</Text>
                     <ButtonWrapper>
                         <Button onClick={() => scrollTo('#download')}>Download</Button>
-                        <BorderButton href="/Hugin_Whitepaper.pdf" id="home">Whitepaper</BorderButton>
+                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf"></BorderButton>
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
-                    <Hugin src="./images/Hugin.png"/>
+                    <Hugin src={HuginLogo}/>
                 </HuginCircle>
             </Container>
         </Section>
