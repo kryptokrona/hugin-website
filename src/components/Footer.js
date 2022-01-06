@@ -79,6 +79,7 @@ const ListItem = styled.h3`
   font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
   transition: 250ms;
+  text-decoration: none;
   
   &:hover {
     color: #fff;
@@ -106,23 +107,23 @@ const Footer= () => {
                 <ListWrapper>
                     <NavList>
                         <NavTitle>Kryptokrona</NavTitle>
-                        <ListItem>Website</ListItem>
-                        <ListItem>Explorer</ListItem>
-                        <ListItem>Litepaper</ListItem>
+                        <a href="https://kryptokrona.se"><ListItem>Website</ListItem></a>
+                        <a href="hhtps://explorer.kryptokrona.se"><ListItem>Explorer</ListItem></a>
+                        <a href="https://kryptokrona.se/Proposal_for_a_New_Nordic_Digital_Currency.pdf"><ListItem>Litepaper</ListItem></a>
                     </NavList>
                     <NavList>
                         <NavTitle>Hugin</NavTitle>
-                        <ListItem>Whitepaper</ListItem>
-                        <ListItem>Github</ListItem>
-                        <ListItem>Refill</ListItem>
+                        <a href="https://kryptokrona.se/Hugin_Whitepaper.pdf"><ListItem>Whitepaper</ListItem></a>
+                        <a href="https://github.com/kryptokrona"><ListItem>Github</ListItem></a>
+                        <a href="https://freiexchange.com/market/XKR/BTC"><ListItem>Refill</ListItem></a>
                     </NavList>
                 </ListWrapper>
                 <ContentWrapper>
                     <SubTitle>Powered by Kryptokrona</SubTitle>
                     <SocialsWrapper>
                         <a href="https://twitter.com/kryptokrona"><FaTwitter size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://twitter.com/kryptokrona"><FaDiscord size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://twitter.com/kryptokrona"><FaTelegram size="1.5em" color="#FFFFFF87"/></a>
+                        <a href="https://chat.kryptokrona.se"><FaDiscord size="1.5em" color="#FFFFFF87"/></a>
+                        <a href="https://t.me/xkrofficial"><FaTelegram size="1.5em" color="#FFFFFF87"/></a>
                     </SocialsWrapper>
                 </ContentWrapper>
             </Container>

@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   }
 `
 const Title = styled.h2`
-  color: white;
+  color: rgba(255, 255, 255, 0.53);
   text-align: center;
   margin-bottom: 100px;
   font-weight: 400;
@@ -38,9 +38,9 @@ const Download = () => {
             <Container>
                 <Title>Choose your OS</Title>
                 <Wrapper>
-                    <FaWindows size="3em" color="#fff"/>
-                    <FaApple size="3em" color="#fff"/>
-                    <FaLinux size="3em" color="#fff"/>
+                    <a href="https://github.com/kryptokrona/hugin-messenger/releases/download/v0.6.0/HuginMessenger-Setup-0.6.0.exe"><FaWindows size="3em" color="#fff"/></a>
+                    <a href="https://github.com/kryptokrona/hugin-messenger/releases/download/v0.6.0/HuginMessenger-0.6.0.dmg"><FaApple size="3em" color="#fff"/></a>
+                    <a href="#" style={{cursor: "not-allowed"}}><FaLinux size="3em" color="rgba(255, 255, 255, 0.50)"/></a>
                 </Wrapper>
             </Container>
         </Section>

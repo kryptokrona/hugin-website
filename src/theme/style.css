@@ -42,3 +42,7 @@ body {
 .hover:hover {
     color: rgba(255, 255, 255, 0.51);
 }
+
+a {
+    text-decoration: none;
+}
