@@ -98,7 +98,7 @@ const ProgressTitleDone = styled.p`
 
 const ProgressTitleOngoing = styled.p`
   font-family: 'Roboto Mono', monospace;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 5px;
   margin-left: 5px;
 `

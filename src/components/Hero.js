@@ -34,6 +34,10 @@ const Container = styled.div`
 const TextContent = styled.div`
   max-width: 600px;
   padding-right: 30px;
+
+  @media screen and (max-width: 1000px) {
+    order: 1;
+  }
 `
 
 
@@ -101,6 +105,23 @@ const HeroImg = styled.img`
   }
 `
 
+const HuginCircle = styled.div`
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #5ff281;
+
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 100px;
+    order: 0;
+  }
+`
+
+const Hugin = styled.img`
+  width: 115%;
+`
+
+
 const Hero = () => {
     return (
         <Section>
@@ -116,7 +137,9 @@ const Hero = () => {
                         <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf" id="home">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
-                <HeroImg src="https://user-images.githubusercontent.com/3246908/118410333-273fc000-b68f-11eb-8883-77f42f4c1558.png"/>
+                <HuginCircle className="rgb">
+                    <Hugin src="https://github.com/kryptokrona/hugin-messenger/blob/master/static/hugin-neon.png?raw=true"/>
+                </HuginCircle>
             </Container>
         </Section>
     )
