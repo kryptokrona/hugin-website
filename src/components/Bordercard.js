@@ -1,9 +1,7 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import {AiOutlineMessage, AiOutlineEyeInvisible, AiOutlineLock} from "react-icons/all";
 import Bubble from '../images/Bubble.png'
 import Eye from '../images/Eye.png'
-import Numbers from '../images/Numbers.png'
 import Dots from '../images/Dots.png'
 
 const Section = styled.div`

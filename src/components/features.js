@@ -1,5 +1,4 @@
 import * as React from 'react'
-import {BiLock} from "react-icons/all";
 import styled from "@emotion/styled";
 
 const Section = styled.div`
