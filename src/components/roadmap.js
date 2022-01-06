@@ -137,22 +137,55 @@ const Roadmap = () => {
             <Wrapper>
 
                 <CardOngoing>
-                    <TitleOngoing>Hugin iOS</TitleOngoing>
+                    <TitleOngoing>Burn Messages</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "15%"}}>
+                            <Progress className="progress" style={{width: "0%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
                 </CardOngoing>
 
                 <CardOngoing>
-                    <TitleOngoing>Hugin Android</TitleOngoing>
+                    <TitleOngoing>Multicoin Wallet</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>In beta</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
+                        <ProgressBar>
+                            <Progress className="progress" style={{width: "0%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardOngoing>
+
+                <CardOngoing>
+                    <TitleOngoing>Hugin TV</TitleOngoing>
+                    <ProgressWrapper>
+                        <ProgressTitleOngoing>Planned</ProgressTitleOngoing>
+                        <ProgressBar>
+                            <Progress className="progress" style={{width: "0%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardOngoing>
+
+                <CardOngoing>
+                    <TitleOngoing>Hugin Mobile</TitleOngoing>
+                    <ProgressWrapper>
+                        <ProgressTitleOngoing>Android Beta</ProgressTitleOngoing>
                         <ProgressBar>
                             <Progress className="progress" style={{width: "40%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardOngoing>
+
+                <CardOngoing>
+                    <TitleOngoing>Hashtags</TitleOngoing>
+                    <ProgressWrapper>
+                        <ProgressTitleOngoing>Close</ProgressTitleOngoing>
+                        <ProgressBar>
+                            <Progress className="progress" style={{width: "80%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
