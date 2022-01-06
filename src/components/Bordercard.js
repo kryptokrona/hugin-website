@@ -20,7 +20,7 @@ const CardWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  transition: all 250ms;
   background-color: #1d1d1d;
   
   @media screen and (max-width: 1024px) {
@@ -39,6 +39,7 @@ const Card = styled.div`
   padding: 30px;
   width: 250px;
   height: 250px;
+  transition: all 250ms;
   
   @media screen and (max-width: 1024px) {
     width: auto;
