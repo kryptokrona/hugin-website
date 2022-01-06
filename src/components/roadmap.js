@@ -161,9 +161,9 @@ const Roadmap = () => {
                 <CardOngoing>
                     <TitleOngoing>Munin Upgrade</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>Close</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress className="progress" style={{width: "90%"}}>
+                            <Progress className="rgb" style={{width: "100%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
