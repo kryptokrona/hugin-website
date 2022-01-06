@@ -137,7 +137,7 @@ const Hero = () => {
                         the possibility to read them.</Text>
                     <ButtonWrapper>
                         <Button onClick={() => scrollTo('#download')}>Download</Button>
-                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf"></BorderButton>
+                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
