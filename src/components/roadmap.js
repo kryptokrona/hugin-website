@@ -32,7 +32,7 @@ const CardCompleted = styled.div`
   justify-content: space-between;
   box-sizing: border-box;
   padding: 20px;
-  background-color: #5ff281;
+  border: 2px solid #5ff281;;
   height: 200px;
   width: 22%;
   border-radius: 8px;
@@ -86,7 +86,7 @@ const TitleOngoing = styled.h3`
 const TitleDone = styled.h3`
   margin: 0;
   font-weight: 200;
-  color: #1d1d1d;
+  color: #ffffff;
 `
 
 const ProgressWrapper = styled.div`
@@ -96,7 +96,7 @@ const ProgressWrapper = styled.div`
 
 const ProgressTitleDone = styled.p`
   font-family: 'Roboto Mono', monospace;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 5px;
 `
 
@@ -121,7 +121,7 @@ const ProgressBar = styled.div`
 const Progress = styled.div`
   height: 10px;
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #5ff281;
 `
 
 const Title = styled.h2`
