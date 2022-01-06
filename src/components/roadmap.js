@@ -181,6 +181,17 @@ const Roadmap = () => {
                 </CardOngoing>
 
                 <CardOngoing>
+                    <TitleOngoing>NFT Avatars</TitleOngoing>
+                    <ProgressWrapper>
+                        <ProgressTitleOngoing>Close</ProgressTitleOngoing>
+                        <ProgressBar>
+                            <Progress className="progress" style={{width: "80%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardOngoing>
+
+                <CardOngoing>
                     <TitleOngoing>Hashtags</TitleOngoing>
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Close</ProgressTitleOngoing>
@@ -214,7 +225,7 @@ const Roadmap = () => {
                 </CardCompleted>
 
                 <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <TitleDone>Sealed boxes</TitleDone>
                     <ProgressWrapper>
                         <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
@@ -225,7 +236,7 @@ const Roadmap = () => {
                 </CardCompleted>
 
                 <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <TitleDone>Hugin Share</TitleDone>
                     <ProgressWrapper>
                         <ProgressTitleDone>Done</ProgressTitleDone>
                         <ProgressBar>
