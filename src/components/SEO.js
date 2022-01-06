@@ -8,7 +8,7 @@ const SEO = () => {
                 <title>Hugin Messenger</title>
                 <meta name="Kryptokrona" content="Hugin Messenger" />
                 <script async src="https://cdn.splitbee.io/sb.js"></script>
-                <link rel="icon" src="../images/favicon.png"  type="image/x-icon"></link>
+                <link rel="icon" src="../images/icon.png"  type="image/x-icon"></link>
             </Helmet>
     )
 }
