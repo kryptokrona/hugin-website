@@ -150,7 +150,7 @@ const Roadmap = () => {
                 <CardOngoing>
                     <TitleOngoing>Hugin Android</TitleOngoing>
                     <ProgressWrapper>
-                        <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
+                        <ProgressTitleOngoing>In beta</ProgressTitleOngoing>
                         <ProgressBar>
                             <Progress className="progress" style={{width: "40%"}}>
                             </Progress>
