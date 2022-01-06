@@ -138,7 +138,7 @@ const Hero = () => {
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
-                    <Hugin src="https://github.com/kryptokrona/hugin-messenger/blob/master/static/hugin-neon.png?raw=true"/>
+                    <Hugin src="./images/Hugin.png"/>
                 </HuginCircle>
             </Container>
         </Section>
