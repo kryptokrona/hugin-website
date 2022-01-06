@@ -131,67 +131,13 @@ const Roadmap = () => {
         <Section>
             <Title>Roadmap</Title>
             <Wrapper>
-                <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
-                    <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
-                        <ProgressBar>
-                            <Progress style={{width: "100%"}}>
-                            </Progress>
-                        </ProgressBar>
-                    </ProgressWrapper>
-                </CardCompleted>
-
-                <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
-                    <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
-                        <ProgressBar>
-                            <Progress style={{width: "100%"}}>
-                            </Progress>
-                        </ProgressBar>
-                    </ProgressWrapper>
-                </CardCompleted>
-
-                <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
-                    <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
-                        <ProgressBar>
-                            <Progress style={{width: "100%"}}>
-                            </Progress>
-                        </ProgressBar>
-                    </ProgressWrapper>
-                </CardCompleted>
-
-                <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
-                    <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
-                        <ProgressBar>
-                            <Progress style={{width: "100%"}}>
-                            </Progress>
-                        </ProgressBar>
-                    </ProgressWrapper>
-                </CardCompleted>
-
-                <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
-                    <ProgressWrapper>
-                        <ProgressTitleDone>Progress</ProgressTitleDone>
-                        <ProgressBar>
-                            <Progress style={{width: "100%"}}>
-                            </Progress>
-                        </ProgressBar>
-                    </ProgressWrapper>
-                </CardCompleted>
 
                 <CardOngoing>
                     <TitleOngoing>Hugin Whitepaper</TitleOngoing>
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress style={{width: "90%"}}>
+                            <Progress style={{width: "15%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -213,11 +159,67 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress style={{width: "15%"}}>
+                            <Progress style={{width: "90%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
                 </CardOngoing>
+
+                <CardCompleted>
+                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <ProgressWrapper>
+                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressBar>
+                            <Progress style={{width: "100%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardCompleted>
+
+                <CardCompleted>
+                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <ProgressWrapper>
+                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressBar>
+                            <Progress style={{width: "100%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardCompleted>
+
+                <CardCompleted>
+                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <ProgressWrapper>
+                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressBar>
+                            <Progress style={{width: "100%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardCompleted>
+
+                <CardCompleted>
+                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <ProgressWrapper>
+                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressBar>
+                            <Progress style={{width: "100%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardCompleted>
+
+                <CardCompleted>
+                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <ProgressWrapper>
+                        <ProgressTitleDone>Progress</ProgressTitleDone>
+                        <ProgressBar>
+                            <Progress style={{width: "100%"}}>
+                            </Progress>
+                        </ProgressBar>
+                    </ProgressWrapper>
+                </CardCompleted>
+
 
             </Wrapper>
         </Section>
