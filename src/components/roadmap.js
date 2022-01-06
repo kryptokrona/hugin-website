@@ -120,8 +120,8 @@ const ProgressBar = styled.div`
 
 const Progress = styled.div`
   height: 10px;
-  background-color: rgb(255, 255, 255);
   border-radius: 20px;
+  background-color: #ffffff;
 `
 
 const Title = styled.h2`
@@ -141,7 +141,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress style={{width: "15%"}}>
+                            <Progress className="progress" style={{width: "15%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -152,7 +152,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress style={{width: "40%"}}>
+                            <Progress className="progress" style={{width: "40%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
@@ -163,7 +163,7 @@ const Roadmap = () => {
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Ongoing</ProgressTitleOngoing>
                         <ProgressBar>
-                            <Progress style={{width: "90%"}}>
+                            <Progress className="progress" style={{width: "90%"}}>
                             </Progress>
                         </ProgressBar>
                     </ProgressWrapper>
