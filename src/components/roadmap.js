@@ -137,7 +137,7 @@ const Roadmap = () => {
             <Wrapper>
 
                 <CardOngoing>
-                    <TitleOngoing>Hugin Whitepaper</TitleOngoing>
+                    <TitleOngoing>Hugin iOS</TitleOngoing>
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
                         <ProgressBar>
@@ -148,7 +148,7 @@ const Roadmap = () => {
                 </CardOngoing>
 
                 <CardOngoing>
-                    <TitleOngoing>Hugin Whitepaper</TitleOngoing>
+                    <TitleOngoing>Hugin Android</TitleOngoing>
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
                         <ProgressBar>
@@ -159,7 +159,7 @@ const Roadmap = () => {
                 </CardOngoing>
 
                 <CardOngoing>
-                    <TitleOngoing>Hugin Whitepaper</TitleOngoing>
+                    <TitleOngoing>Munin Upgrade</TitleOngoing>
                     <ProgressWrapper>
                         <ProgressTitleOngoing>Progress</ProgressTitleOngoing>
                         <ProgressBar>
@@ -203,7 +203,7 @@ const Roadmap = () => {
                 </CardCompleted>
 
                 <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <TitleDone>Hugin Boards</TitleDone>
                     <ProgressWrapper>
                         <ProgressTitleDone>Progress</ProgressTitleDone>
                         <ProgressBar>
@@ -214,7 +214,7 @@ const Roadmap = () => {
                 </CardCompleted>
 
                 <CardCompleted>
-                    <TitleDone>Hugin Whitepaper</TitleDone>
+                    <TitleDone>Hugin Voice</TitleDone>
                     <ProgressWrapper>
                         <ProgressTitleDone>Progress</ProgressTitleDone>
                         <ProgressBar>
