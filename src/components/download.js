@@ -3,6 +3,7 @@ import * as React from 'react'
 import "../theme/style.css"
 import {FaApple, FaLinux, FaWindows} from "react-icons/all";
 import styled from "@emotion/styled";
+import {useEffect} from "react";
 
 const Section = styled.div`
   display: flex;
@@ -33,14 +34,39 @@ const Title = styled.h2`
 `
 
 const Download = () => {
+
+    useEffect((file) => {
+        let latest_mac;
+        let latest_win;
+        let latest_lin;
+        fetch("https://api.github.com/repos/kryptokrona/hugin-messenger/releases/latest")
+            .then((response) => response.json())
+            .then((data) => {
+                let files = data.assets;
+                for (file in files) {
+                    if (files[file].name.slice(files[file].name.length - 7) === "mac.zip") {
+                        latest_mac = files[file].browser_download_url;
+                    } else if (files[file].name.slice(files[file].name.length - 3) === "exe") {
+                        latest_win = files[file].browser_download_url;
+                    } else if (files[file].name.slice(files[file].name.length - 8) === "AppImage") {
+                        latest_lin = files[file].browser_download_url;
+                    }
+                    document.getElementById('latest_mac').href = latest_mac;
+                    document.getElementById('latest_win').href = latest_win;
+                    document.getElementById('latest_lin').href = latest_lin;
+                }
+                console.log(latest_mac, latest_lin, latest_win)
+            });
+    });
+
     return(
         <Section id="download">
             <Container>
                 <Title>Choose your OS</Title>
                 <Wrapper>
-                    <a href="https://github.com/kryptokrona/hugin-messenger/releases/download/v0.6.0/HuginMessenger-Setup-0.6.0.exe"><FaWindows size="3em" color="#fff"/></a>
-                    <a href="https://github.com/kryptokrona/hugin-messenger/releases/download/v0.6.0/HuginMessenger-0.6.0.dmg"><FaApple size="3em" color="#fff"/></a>
-                    <a href="#" style={{cursor: "not-allowed"}}><FaLinux size="3em" color="rgba(255, 255, 255, 0.50)"/></a>
+                    <a id='latest_win' href=''><FaWindows size="3em" color="#fff"/></a>
+                    <a id='latest_mac' href=''><FaApple size="3em" color="#fff"/></a>
+                    <a id='latest_lin' href=''><FaLinux size="3em" color="#fff"/></a>
                 </Wrapper>
             </Container>
         </Section>

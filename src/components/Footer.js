@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import {FaDiscord, FaTelegram, FaTwitter} from 'react-icons/fa'
+import {useEffect} from "react";
 
 const Section = styled.footer`
   border-top: 1px solid rgba(255, 255, 255, 0.13);
@@ -24,7 +25,7 @@ const Container = styled.div`
   @media screen and (max-width: 580px) {
     flex-direction: column;
     padding: 60px 20px;
-    
+
   }
 `
 
@@ -62,7 +63,7 @@ const SocialsWrapper = styled.div`
 `
 
 const NavList = styled.ul`
- padding: 0;
+  padding: 0;
   margin-top: 0;
 `
 
@@ -80,7 +81,7 @@ const ListItem = styled.h3`
   font-family: 'Roboto Mono', monospace;
   transition: 250ms;
   text-decoration: none;
-  
+
   &:hover {
     color: #fff;
     cursor: pointer;
@@ -100,8 +101,8 @@ const SubTitle = styled.p`
 `
 
 
-const Footer= () => {
-    return(
+const Footer = () => {
+    return (
         <Section>
             <Container>
                 <ListWrapper>
