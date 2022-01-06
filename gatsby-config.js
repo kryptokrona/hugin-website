@@ -18,6 +18,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-smoothscroll",
+    "gatsby-plugin-open-graph-images",
     {
       resolve: "gatsby-source-filesystem",
       options: {
