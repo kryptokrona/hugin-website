@@ -76,6 +76,8 @@ const Button = styled.a`
   padding: 10px;
   font-weight: 600;
   transition: 250ms;
+  text-decoration: none;
+  color: #1d1d1d;
 
   &:hover {
     cursor: pointer;
@@ -137,7 +139,7 @@ const Hero = () => {
                         messages are secured with industry leading encryption so that only you and your chat partner have
                         the possibility to read them.</Text>
                     <ButtonWrapper>
-                        <Button data-splitbee-event="Download" onClick={() => scrollTo('#download')}>Download</Button>
+                        <Button href="/#download" data-splitbee-event="Download">Download</Button>
                         <BorderButton data-splitbee-event="Whitepaper" href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
