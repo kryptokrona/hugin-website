@@ -77,7 +77,7 @@ const Navbar = () => {
             <NavWrapper>
                 <Brand>Hugin</Brand>
                 <Navigation>
-                    <NavButton data-splitbee-event="Kryptokrona" href="https://kryptokrona.se">Kryptokrona →</NavButton>
+                    <NavButton href="https://kryptokrona.se">Kryptokrona →</NavButton>
                 </Navigation>
             </NavWrapper>
         </Nav>
