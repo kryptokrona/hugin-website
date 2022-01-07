@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import HuginMessenger from '../images/HuginMessenger.png.png';
+import HuginMessenger from '../images/HuginMessenger.png';
 
 
 
@@ -120,8 +120,13 @@ const HuginCircle = styled.div`
 `
 
 const Hugin = styled.img`
-  width: 113%;
+  width: 50%;
   margin-left: 35px;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0
+  }
 `
 
 
@@ -130,19 +135,11 @@ const HuginDesktop = () => {
         <Section>
             <Container>
                 <TextContent>
-                    <SubTitle>Your data</SubTitle>
+                    <SubTitle>Presenting Hugin </SubTitle>
                     <Title>Desktop Version</Title>
-                    <Text>Hugin is a messaging service where messages are stored on the kryptokrona blockchain. Your
-                        messages are secured with industry leading encryption so that only you and your chat partner have
-                        the possibility to read them.</Text>
-                    <ButtonWrapper>
-                        <Button href="#download">Download</Button>
-                        <BorderButton href="/whitepaper">Whitepaper</BorderButton>
-                    </ButtonWrapper>
+                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
                 </TextContent>
-                <HuginCircle className="rgb">
                     <Hugin src={HuginMessenger}/>
-                </HuginCircle>
             </Container>
         </Section>
     )
