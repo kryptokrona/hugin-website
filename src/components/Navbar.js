@@ -75,7 +75,7 @@ const Navbar = () => {
         <Nav id="home">
             <Rgb className="rgb"/>
             <NavWrapper>
-                <Brand>Hugin</Brand>
+                <Brand href="/">Hugin</Brand>
                 <Navigation>
                     <NavButton href="https://kryptokrona.se">Kryptokrona →</NavButton>
                 </Navigation>
