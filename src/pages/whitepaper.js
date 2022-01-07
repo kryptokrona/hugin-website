@@ -50,7 +50,7 @@ const Title = styled.h1`
 const SubTitle = styled.h2`
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
 `
 
 const ThinTitle = styled.h3`
@@ -66,6 +66,10 @@ const Text = styled.p`
   color: rgba(255, 255, 255, 0.5);
   font-family: 'Roboto Mono', monospace;
   margin: 10px 0;
+
+  @media screen and (max-width: 400px) {
+    text-align: start;
+  }
 `
 
 const Figure = styled.img`
