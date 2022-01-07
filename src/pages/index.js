@@ -4,8 +4,8 @@ import Hero from "../components/Hero";
 import Download from "../components/download";
 import BorderCard from "../components/Bordercard";
 import Roadmap from "../components/roadmap";
-import Screenshot from "../components/Screenshot";
 import Features from "../components/Features";
+import HuginDesktop from "../components/HuginDesktop";
 
 
 
@@ -15,7 +15,7 @@ const Index = () => {
    <Layout>
        <Hero/>
        <BorderCard/>
-       <Screenshot/>
+       <HuginDesktop/>
        <Features/>
        <Roadmap/>
        <Download/>
