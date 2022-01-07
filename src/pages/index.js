@@ -5,6 +5,7 @@ import Download from "../components/download";
 import BorderCard from "../components/Bordercard";
 import Roadmap from "../components/roadmap";
 import Screenshot from "../components/Screenshot";
+import Features from "../components/Features";
 
 
 
@@ -15,6 +16,7 @@ const Index = () => {
        <Hero/>
        <BorderCard/>
        <Screenshot/>
+       <Features/>
        <Roadmap/>
        <Download/>
    </Layout>
