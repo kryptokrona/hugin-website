@@ -76,6 +76,18 @@ const Figure = styled.img`
   
 `
 
+const Source = styled.a`
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto Mono', monospace;
+  transition: 250ms;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+`
+
 const WhitepaperPage = () => {
     return(
         <Layout>
@@ -328,20 +340,20 @@ const WhitepaperPage = () => {
                         Fri 3 Sep, 2020</Text>
 
                     <SubTitle>Sources</SubTitle>
-                    <Text>1. https://drewdevault.com/2018/08/08/Signal.html<br/>
-                        2. https://signal.org/blog/looking-back-on-the-front/<br/>
-                        3. https://courses.cs.washington.edu/courses/csep590/05au/whitepaper_turnin/oss(10).pdf<br/>
-                        4. https://bytecoin.org/old/whitepaper.pdf<br/>
-                        5. https://nacl.cr.yp.to/<br/>
-                        6. https://tweetnacl.js.org/audits/cure53.pdf<br/>
-                        7. https://github.com/dchest/tweetnacl-js<br/>
-                        8. https://en.wikipedia.org/wiki/WebRTC<br/>
-                        9. https://en.wikipedia.org/wiki/BitTorrent<br/>
-                        10. https://openalias.org/<br/>
-                        11. https://github.com/comit-network/xmr-btc-swap<br/>
-                        12. https://github.com/kryptokrona/hugin-messenger<br/>
-                        13. https://github.com/kryptokrona/hugin-mobile<br/>
-                    </Text>
+                    <Source href="https://drewdevault.com/2018/08/08/Signal.html">1. Drewdevault</Source>
+                    <Source href="https://signal.org/blog/looking-back-on-the-front">2. Signal</Source>
+                    <Source href="https://courses.cs.washington.edu/courses/csep590/05au/whitepaper_turnin/oss(10).pdf">3. Washington edu</Source>
+                    <Source href="https://bytecoin.org/old/whitepaper.pdf">4. Bytecoin</Source>
+                    <Source href="https://nacl.cr.yp.to">5. NaCl</Source>
+                    <Source href="https://tweetnacl.js.org/audits/cure53.pdf">6. TweetNaCl</Source>
+                    <Source href="https://github.com/dchest/tweetnacl-js">7. Github TweetNaCl</Source>
+                    <Source href="https://en.wikipedia.org/wiki/WebRTC">8. Wikipedia WebRTC</Source>
+                    <Source href="https://en.wikipedia.org/wiki/BitTorrent">9. Wikipedia BitTorrent</Source>
+                    <Source href="https://openalias.org">10. OpenAlias</Source>
+                    <Source href="https://github.com/comit-network/xmr-btc-swap">11. Github XKR / BTC</Source>
+                    <Source href="https://github.com/kryptokrona/hugin-messenger">12. Github Hugin Messenger</Source>
+                    <Source href="https://github.com/kryptokrona/hugin-mobile">13. Github Hugin Mobile</Source>
+
                     <Button href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Get as PDF</Button>
 
                 </Wrapper>
