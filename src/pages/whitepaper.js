@@ -24,6 +24,23 @@ const Wrapper = styled.div`
   }
 `
 
+const Button = styled.a`
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px 20px;
+  font-weight: 600;
+  transition: 250ms;
+  text-decoration: none;
+  color: #1d1d1d;
+  margin-top: 3rem;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+  }
+`
+
 const Title = styled.h1`
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -321,6 +338,7 @@ const WhitepaperPage = () => {
                         12. https://github.com/kryptokrona/hugin-messenger<br/>
                         13. https://github.com/kryptokrona/hugin-mobile<br/>
                     </Text>
+                    <Button href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Get as PDF</Button>
 
                 </Wrapper>
             </Section>
