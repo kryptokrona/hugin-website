@@ -135,7 +135,7 @@ const Hero = () => {
                         the possibility to read them.</Text>
                     <ButtonWrapper>
                         <Button href="/#download">Download</Button>
-                        <BorderButton href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Whitepaper</BorderButton>
+                        <BorderButton href="/whitepaper">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
