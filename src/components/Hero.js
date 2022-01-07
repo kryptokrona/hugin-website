@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import HuginLogo from '../images/Hugin.png';
 
 
+
 const Section = styled.div`
   overflow: hidden;
   display: flex;
@@ -93,6 +94,7 @@ const Button = styled.a`
 const BorderButton = styled.a`
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.85);
+  background-color: transparent;
   padding: 15px 20px;
   color: rgba(255, 255, 255, 0.85);
   font-weight: 600;
@@ -134,7 +136,7 @@ const Hero = () => {
                         messages are secured with industry leading encryption so that only you and your chat partner have
                         the possibility to read them.</Text>
                     <ButtonWrapper>
-                        <Button href="/#download">Download</Button>
+                        <Button href="#download">Download</Button>
                         <BorderButton href="/whitepaper">Whitepaper</BorderButton>
                     </ButtonWrapper>
                 </TextContent>
