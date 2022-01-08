@@ -4,6 +4,7 @@ module.exports = {
     title: "Hugin Messenger",
   },
   plugins: [
+      "gatsby-plugin-sitemap",
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
