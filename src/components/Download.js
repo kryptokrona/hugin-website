@@ -4,6 +4,7 @@ import {FaApple, FaLinux, FaWindows} from "react-icons/all";
 import styled from "@emotion/styled";
 import {useEffect} from "react";
 import Playstorebadge from '../images/playstore.png'
+import Appstorebadge from '../images/appstorebadge.png'
 
 const Section = styled.div`
   display: flex;
@@ -45,12 +46,12 @@ const BadgeWrapper = styled.div`
 `
 
 const Playstore = styled.img`
-  width: 30%;
+  height: 60px;
+`
 
-  @media screen and (max-width: 579px) {
-    width: 40%;
-  }
-\`
+const Appstore = styled.img`
+  opacity: 50%;
+  height: 40px;
 `
 
 
@@ -91,6 +92,7 @@ const Download = () => {
                 </Wrapper>
                 <BadgeWrapper>
                     <a style={{display: "flex", justifyContent: "center"}} href="https://play.google.com/apps/testing/com.hugin"><Playstore aria-label="Download Android" src={Playstorebadge}/></a>
+                    <a style={{display: "flex", justifyContent: "center"}} href="#"><Appstore aria-label="Download iOS" src={Appstorebadge}/></a>
                 </BadgeWrapper>
             </Container>
         </Section>
