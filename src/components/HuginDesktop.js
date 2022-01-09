@@ -63,17 +63,22 @@ const SubTitle = styled.p`
 
 const Text = styled.p`
   font-family: 'Roboto Mono', monospace;
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.5);
   line-height: 1.75rem;
 `
 
-const Hugin = styled.img`
-  width: 50%;
-  margin-left: 35px;
+const Screenshot = styled.img`
+  width: 40%;
+
 
   @media screen and (max-width: 1000px) {
+    width: 60%;
+
+  }
+
+  @media screen and (max-width: 579px) {
     width: 100%;
-    margin-left: 0
+
   }
 `
 
@@ -82,11 +87,11 @@ const HuginDesktop = () => {
         <Section>
             <Container>
                 <TextContent>
-                    <SubTitle>Presenting Hugin </SubTitle>
-                    <Title>Desktop Version</Title>
+                    <SubTitle>Presenting</SubTitle>
+                    <Title>Hugin Desktop</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
                 </TextContent>
-                <Hugin src={HuginMessenger}/>
+                <Screenshot src={HuginMessenger}/>
             </Container>
         </Section>
     )
