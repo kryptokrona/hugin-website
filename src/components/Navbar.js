@@ -65,6 +65,8 @@ const NavButton = styled.a`
 const Rgb = styled.div`
   width: 100%;
   height: 2px;
+  position: fixed;
+  top: 0;
 `
 
 const Navbar = () => {
