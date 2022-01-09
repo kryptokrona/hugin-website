@@ -37,6 +37,7 @@ const Card = styled.div`
   border-radius: 8px;
   transition: all 250ms;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: none;
   
 
   @media screen and (max-width: 1000px) {

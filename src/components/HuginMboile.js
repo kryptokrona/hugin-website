@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import HuginMessenger from '../images/HuginMessenger.png';
+import Mobile from '../images/HuginMobile.png';
 
 
 const Section = styled.div`
@@ -69,7 +69,7 @@ const Text = styled.p`
 
 
 const Hugin = styled.img`
-  width: 50%;
+  height: 50%;
   margin-left: 35px;
 
   @media screen and (max-width: 1000px) {
@@ -88,7 +88,7 @@ const HuginMobile = () => {
                     <Title>Mobile Version</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
                 </TextContent>
-                <Hugin src={HuginMessenger}/>
+                <Hugin src={Mobile}/>
             </Container>
         </Section>
     )
