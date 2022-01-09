@@ -66,7 +66,7 @@ const SubTitle = styled.p`
 
 const Text = styled.p`
   font-family: 'Roboto Mono', monospace;
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.5);
   line-height: 1.75rem;
 `
 
@@ -82,31 +82,34 @@ const ButtonWrapper = styled.div`
 
 const Button = styled.a`
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 15px 20px;
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
   color: #1d1d1d;
+  border: 1px solid;
 
   &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 0 10px #fff;
-  }
+    background-color: rgba(255, 255, 255, 0.8);
 `
 const BorderButton = styled.a`
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: transparent;
   padding: 15px 20px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
 
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px #fff;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
   }
 `
 

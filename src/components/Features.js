@@ -56,8 +56,8 @@ padding: 20px;
 
 const CardTitle = styled.h3`
   margin: 0;
-  font-weight: 200;
-  color: rgb(151, 151, 151);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
 `
 const Text = styled.p`
   font-family: 'Roboto Mono', monospace;
@@ -73,7 +73,7 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle> 🔒 Private Messages</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🔒 </span>Private Messages</CardTitle>
                         <Text>Every message is encrypted with leading assymetric encryption, specifically NaCl. Read more about the encryption here (https://nacl.cr.yp.to/) </Text>
                     </CardContent>
 
@@ -81,35 +81,35 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle> 🤙 Voice & Video</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🤙 </span> Voice & Video</CardTitle>
                         <Text>Communicate with voice & video without the use of any intermediate server that process your data. Data is passed directly between peers. </Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle> 🗂 Unlimited Sharing</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🗂 </span> Unlimited Sharing</CardTitle>
                         <Text>Share without looking at the file size. This feature is powered by Bittorrent technology, which is the leading peer-to-peer file sharing protocol</Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle>🐥 Social Network</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🐥 </span> Social Network</CardTitle>
                         <Text>Hugin Boards, the next step in the evolution of social media. Instead of likes, you have tips, instead of censorship, you have freedom of speech!</Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle>😎 Ungovernable</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>😎 </span> Ungovernable</CardTitle>
                         <Text>Hugin cannot be taken down or be be censored, and most importantly Hugin does not function without you! </Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle>🥰 Open-source</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🥰 </span>Open-source</CardTitle>
                         <Text>Our source code is open for everyone to view and our community is open for anyone interested in contributing. </Text>
                     </CardContent>
                 </Card>

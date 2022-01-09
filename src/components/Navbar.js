@@ -8,7 +8,9 @@ const Nav = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: rgba(29, 29, 29, 0.50);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   position: fixed;
   margin-top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -30,14 +32,14 @@ const NavWrapper = styled.div`
 `
 const Brand = styled.a`
   font-size: 24px;
-  color: white;
-  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
   transition: 250ms;
   text-decoration: none;
 
   &:hover {
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.53);
+    color: rgba(255, 255, 255, 0.8);
   }
 `
 

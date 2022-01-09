@@ -3,7 +3,7 @@ import "../theme/style.css"
 import {FaApple, FaLinux, FaWindows} from "react-icons/all";
 import styled from "@emotion/styled";
 import {useEffect} from "react";
-import PlayBadge from '../images/Playbadge.png'
+import Playstorebadge from '../images/playstore.png'
 
 const Section = styled.div`
   display: flex;
@@ -17,10 +17,15 @@ const Container = styled.div`
   padding: 100px 0;
   max-width: 1200px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 const Wrapper = styled.div`
-    display: flex;
+  display: flex;
+  justify-content: center;
   gap: 100px;
+  margin-bottom: 5em;
   
   @media screen and (max-width: 400px) {
     gap: 60px;
@@ -31,6 +36,21 @@ const Title = styled.h2`
   text-align: center;
   margin-bottom: 100px;
   font-weight: 400;
+`
+
+const BadgeWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+const Playstore = styled.img`
+  width: 30%;
+
+  @media screen and (max-width: 579px) {
+    width: 40%;
+  }
+\`
 `
 
 
@@ -69,6 +89,9 @@ const Download = () => {
                     <a id='latest_mac' href='/#'><FaApple aria-label="Download MacOS" size="3em" color="#fff"/></a>
                     <a id='latest_lin' href='/#'><FaLinux aria-label="Download Linux" size="3em" color="#fff"/></a>
                 </Wrapper>
+                <BadgeWrapper>
+                    <a style={{display: "flex", justifyContent: "center"}} href="https://play.google.com/apps/testing/com.hugin"><Playstore aria-label="Download Android" src={Playstorebadge}/></a>
+                </BadgeWrapper>
             </Container>
         </Section>
     )
