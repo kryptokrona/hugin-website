@@ -94,7 +94,7 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle><span style={{color: "#FFF"}}>🐥 </span> Social Network</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🌐 </span> Social Network</CardTitle>
                         <Text>Hugin Boards, the next step in the evolution of social media. Instead of likes, you have tips, instead of censorship, you have freedom of speech!</Text>
                     </CardContent>
                 </Card>
