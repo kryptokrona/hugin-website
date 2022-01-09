@@ -122,6 +122,14 @@ const Screenshot = styled.img`
   }
 `
 
+const ButtonWrapper = styled.div`
+  display: flex;
+  gap: 10px;
+
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+`
 
 const HuginMobile = () => {
     return (
@@ -132,10 +140,10 @@ const HuginMobile = () => {
                     <SubTitle>Presenting</SubTitle>
                     <Title>Hugin Mobile</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
-                    <div style={{display: "flex", gap: "10px"}}>
+                    <ButtonWrapper>
                         <Button href="#download">Download</Button>
                         <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
-                    </div>
+                    </ButtonWrapper>
 
                 </TextContent>
             </Container>

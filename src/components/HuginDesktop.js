@@ -44,7 +44,7 @@ const GithubButton = styled.a`
   height: 30px;
   border-radius: 5px;
   background-color: #6e5494;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
@@ -121,6 +121,15 @@ const Screenshot = styled.img`
   }
 `
 
+const ButtonWrapper = styled.div`
+  display: flex;
+  gap: 10px;
+
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+`
+
 const HuginDesktop = () => {
     return (
         <Section>
@@ -129,10 +138,10 @@ const HuginDesktop = () => {
                     <SubTitle>Presenting</SubTitle>
                     <Title>Hugin Desktop</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
-                    <div style={{display: "flex", gap: "10px"}}>
+                    <ButtonWrapper>
                         <Button href="#download">Download</Button>
                         <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
-                    </div>
+                    </ButtonWrapper>
                 </TextContent>
                 <Screenshot src={HuginMessenger}/>
             </Container>
