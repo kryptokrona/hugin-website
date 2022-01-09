@@ -67,6 +67,7 @@ const Text = styled.p`
   line-height: 1.75rem;
 `
 
+
 const Hugin = styled.img`
   width: 50%;
   margin-left: 35px;
@@ -77,13 +78,14 @@ const Hugin = styled.img`
   }
 `
 
-const HuginDesktop = () => {
+
+const HuginMobile = () => {
     return (
         <Section>
             <Container>
                 <TextContent>
-                    <SubTitle>Presenting Hugin </SubTitle>
-                    <Title>Desktop Version</Title>
+                    <SubTitle>Presenting Hugin</SubTitle>
+                    <Title>Mobile Version</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
                 </TextContent>
                 <Hugin src={HuginMessenger}/>
@@ -92,4 +94,4 @@ const HuginDesktop = () => {
     )
 }
 
-export default HuginDesktop
+export default HuginMobile

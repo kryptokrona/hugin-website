@@ -131,7 +131,7 @@ const Title = styled.h2`
 `
 
 const Roadmap = () => {
-    return(
+    return (
         <Section>
             <Title>Roadmap</Title>
             <Wrapper>

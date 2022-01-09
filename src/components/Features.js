@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1400px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 40px;
   transition: all 250ms;
@@ -25,31 +26,31 @@ const Wrapper = styled.div`
   }
 `
 
-const CardOngoing = styled.div`
+const Card = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 20px;
   background-color: transparent;
   height: 180px;
   width: 30%;
   border-radius: 8px;
   transition: all 250ms;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  
 
-  @media screen and (max-width: 1079px) {
-    width: 30%;
-  }
-
-  @media screen and (max-width: 879px) {
+  @media screen and (max-width: 1000px) {
     width: 46%;
   }
 
-  @media screen and (max-width: 579px) {
+  @media screen and (max-width: 629px) {
     width: 100%;
     height: 180px;
   }
+`
+
+const CardContent = styled.div`
+padding: 20px;
 `
 
 const Title = styled.h2`
@@ -71,40 +72,59 @@ const Text = styled.p`
 `
 
 const Roadmap = () => {
-    return(
+    return (
         <Section>
             <Title>Features</Title>
             <Wrapper>
 
-                <CardOngoing>
-                    <CardTitle> 🔒 Private Messages</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                <Card style={{borderColor: "#5f86f2"}}>
 
-                <CardOngoing>
-                    <CardTitle> 🤙 Voice & Video</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                    <CardContent>
+                        <CardTitle> 🔒 Private Messages</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
 
-                <CardOngoing>
-                    <CardTitle> 🗂 Unlimited Sharing</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                </Card>
 
-                <CardOngoing>
-                    <CardTitle>🐥 Social Network</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                <Card style={{borderColor: "#a65ff2"}}>
 
-                <CardOngoing>
-                    <CardTitle>😎 Ungovernable</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                    <CardContent>
+                        <CardTitle> 🤙 Voice & Video</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
+                </Card>
 
-                <CardOngoing>
-                    <CardTitle>😎 Hashtags</CardTitle>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
-                </CardOngoing>
+                <Card style={{borderColor: "#f25fd0"}}>
+
+                    <CardContent>
+                        <CardTitle> 🗂 Unlimited Sharing</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
+                </Card>
+
+                <Card style={{borderColor: "#f25f61"}}>
+
+                    <CardContent>
+                        <CardTitle>🐥 Social Network</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
+                </Card>
+
+                <Card style={{borderColor: "#f2cb5f"}}>
+
+                    <CardContent>
+                        <CardTitle>😎 Ungovernable</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
+                </Card>
+
+                <Card style={{borderColor: "#5FF281"}}>
+
+                    <CardContent>
+                        <CardTitle>😎 Hashtags</CardTitle>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                    </CardContent>
+                </Card>
 
             </Wrapper>
         </Section>

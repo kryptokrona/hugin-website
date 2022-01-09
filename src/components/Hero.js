@@ -3,7 +3,6 @@ import styled from "@emotion/styled";
 import HuginLogo from '../images/Hugin.png';
 
 
-
 const Section = styled.div`
   overflow: hidden;
   display: flex;
@@ -13,6 +12,10 @@ const Section = styled.div`
   background-color: #1d1d1d;
   padding-top: 15em;
   padding-bottom: 10em;
+
+  @media screen and (max-width: 579px) {
+    padding-top: 8em;
+  }
 `
 
 const Container = styled.div`
@@ -100,7 +103,7 @@ const BorderButton = styled.a`
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
-  
+
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 10px #fff;
@@ -133,7 +136,8 @@ const Hero = () => {
                     <SubTitle>Powered by Kryptokrona</SubTitle>
                     <Title>Welcome to Hugin Messenger</Title>
                     <Text>Hugin is a messaging service where messages are stored on the kryptokrona blockchain. Your
-                        messages are secured with industry leading encryption so that only you and your chat partner have
+                        messages are secured with industry leading encryption so that only you and your chat partner
+                        have
                         the possibility to read them.</Text>
                     <ButtonWrapper>
                         <Button href="#download">Download</Button>

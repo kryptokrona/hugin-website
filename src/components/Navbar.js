@@ -10,9 +10,12 @@ const Nav = styled.div`
   width: 100%;
   background-color: #1d1d1d;
   position: fixed;
-  top: 0;
   margin-top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+  @media screen and (max-width: 579px) {
+    bottom: 0;
+  }
 `
 
 const NavWrapper = styled.div`
@@ -65,13 +68,11 @@ const NavButton = styled.a`
 
 const Rgb = styled.div`
   width: 100%;
-  height: 5px;
-  position: fixed;
-  top: 0;
+  height: 2px;
 `
 
 const Navbar = () => {
-    return(
+    return (
         <Nav id="home">
             <Rgb className="rgb"/>
             <NavWrapper>
@@ -83,7 +84,6 @@ const Navbar = () => {
         </Nav>
     )
 }
-
 
 
 export default Navbar

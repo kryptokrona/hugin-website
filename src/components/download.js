@@ -60,13 +60,13 @@ const Download = () => {
             });
     });
 
-    return(
+    return (
         <Section id="download">
             <Container>
                 <Title>Choose your OS</Title>
                 <Wrapper>
                     <a id='latest_win' href='/#'><FaWindows aria-label="Download Windows" size="3em" color="#fff"/></a>
-                    <a id='latest_mac' href='/#'><FaApple  aria-label="Download MacOS" size="3em" color="#fff"/></a>
+                    <a id='latest_mac' href='/#'><FaApple aria-label="Download MacOS" size="3em" color="#fff"/></a>
                     <a id='latest_lin' href='/#'><FaLinux aria-label="Download Linux" size="3em" color="#fff"/></a>
                 </Wrapper>
             </Container>

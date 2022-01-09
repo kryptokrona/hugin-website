@@ -10,6 +10,10 @@ const Section = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 579px) {
+    margin-bottom: 80px;
+  }
 `
 
 const Container = styled.div`
@@ -119,12 +123,17 @@ const Footer = () => {
                     </NavList>
                 </ListWrapper>
                 <ContentWrapper>
-                    <SubTitle>Powered by Kryptokrona</SubTitle>
-                    <SocialsWrapper>
-                        <a href="https://twitter.com/kryptokrona"><FaTwitter aria-label="Twitter" size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://chat.kryptokrona.se"><FaDiscord aria-label="Discord" size="1.5em" color="#FFFFFF87"/></a>
-                        <a href="https://t.me/xkrofficial"><FaTelegram aria-label="Telegram" size="1.5em" color="#FFFFFF87"/></a>
-                    </SocialsWrapper>
+                    <>
+                        <SubTitle>Powered by Kryptokrona</SubTitle>
+                        <SocialsWrapper>
+                            <a href="https://twitter.com/kryptokrona"><FaTwitter aria-label="Twitter" size="1.5em"
+                                                                                 color="#FFFFFF87"/></a>
+                            <a href="https://chat.kryptokrona.se"><FaDiscord aria-label="Discord" size="1.5em"
+                                                                             color="#FFFFFF87"/></a>
+                            <a href="https://t.me/xkrofficial"><FaTelegram aria-label="Telegram" size="1.5em"
+                                                                           color="#FFFFFF87"/></a>
+                        </SocialsWrapper>
+                    </>
                 </ContentWrapper>
             </Container>
         </Section>

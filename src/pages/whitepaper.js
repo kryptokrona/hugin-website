@@ -89,7 +89,7 @@ const Source = styled.a`
 `
 
 const WhitepaperPage = () => {
-    return(
+    return (
         <Layout>
             <Section>
                 <Wrapper>
@@ -134,8 +134,10 @@ const WhitepaperPage = () => {
                     <Text>Another positive feature of decentralization is that it can make certain operations a lot less
                         costly, and in turn more scalable. In Hugin Messenger, for example, you can make true
                         peer-2-peer calls, where the data is only travelling between you, and your recipient. In a
-                        centralized system, that call would be relayed through a centralized server, costing the centralized entity valuable resources, in turn causing an incentive for it to profit off of the
-                        user’s interactions with their service. It is feasible that such calls are transcribed, analyzed,
+                        centralized system, that call would be relayed through a centralized server, costing the
+                        centralized entity valuable resources, in turn causing an incentive for it to profit off of the
+                        user’s interactions with their service. It is feasible that such calls are transcribed,
+                        analyzed,
                         and hopefully anonymized, before being sold as data for profit. Hugin is immune to this race
                         to make more profit, as server cost’s increase due to user base growth and data volume.
                         This is achieved simply because the data is stored in the peer-2-peer network, the bulk of it
@@ -163,7 +165,8 @@ const WhitepaperPage = () => {
                         beat mainstream services in terms of video and audio quality, as well as in privacy.</Text>
 
                     <ThinTitle>File sharing</ThinTitle>
-                    <Text>Hugin Messenger lets users send files of any size without any cost or restrictions, where files
+                    <Text>Hugin Messenger lets users send files of any size without any cost or restrictions, where
+                        files
                         are sent completely peer-to-peer.</Text>
 
                     <ThinTitle>Social network</ThinTitle>
@@ -224,8 +227,10 @@ const WhitepaperPage = () => {
                         group is compromised.</Text>
 
                     <ThinTitle>NaCl</ThinTitle>
-                    <Text style={{fontStyle:"italic"}}>NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication,
-                        encryption, decryption, signatures, etc. NaCl's goal is to provide all of the core operations needed to build
+                    <Text style={{fontStyle: "italic"}}>NaCl (pronounced "salt") is a new easy-to-use high-speed
+                        software library for network communication,
+                        encryption, decryption, signatures, etc. NaCl's goal is to provide all of the core operations
+                        needed to build
                         higher-level cryptographic tools (5).</Text>
 
                     <Text>NaCl is a well tested cryptographic library, used by countless projects, that has been audited
@@ -256,9 +261,12 @@ const WhitepaperPage = () => {
                         messaging can be shared in public.</Text>
 
                     <ThinTitle>WebRTC</ThinTitle>
-                    <Text style={{fontStyle:"italic"}}>WebRTC (Web Real-Time Communication) is a free and open-source project providing web browsers and mobile
-                        applications with real-time communication (RTC) via simple application programming interfaces (APIs). It allows
-                        audio and video communication to work inside web pages by allowing direct peer-to-peer communication,
+                    <Text style={{fontStyle: "italic"}}>WebRTC (Web Real-Time Communication) is a free and open-source
+                        project providing web browsers and mobile
+                        applications with real-time communication (RTC) via simple application programming interfaces
+                        (APIs). It allows
+                        audio and video communication to work inside web pages by allowing direct peer-to-peer
+                        communication,
                         eliminating the need to install plugins or download native apps(8).</Text>
 
                     <Text>Hugin Messenger uses WebRTC to establish direct peer-to-peer connections between two
@@ -273,7 +281,8 @@ const WhitepaperPage = () => {
                         every node on the network.</Text>
 
                     <ThinTitle>BitTorrent</ThinTitle>
-                    <Text style={{fontStyle:"italic"}}>BitTorrent is a communication protocol for peer-to-peer file sharing (P2P), which enables users to distribute data
+                    <Text style={{fontStyle: "italic"}}>BitTorrent is a communication protocol for peer-to-peer file
+                        sharing (P2P), which enables users to distribute data
                         and electronic files over the Internet in a decentralized manner (9).</Text>
 
                     <Text>Hugin Messenger can also send files of any size, and distribute files to a large number of
@@ -284,9 +293,12 @@ const WhitepaperPage = () => {
                         which enables seamless and fast file sharing of even the largest of files.</Text>
 
                     <ThinTitle>OpenAlias</ThinTitle>
-                    <Text style={{fontStyle:"italic"}}>At its most basic, OpenAlias is a TXT DNS record on a FQDN (fully qualified domain name). By combining this
-                        with DNS-related technologies we have created an aliasing standard that is extensible for developers, intuitive
-                        and familiar for users, and can interoperate with both centralised and decentralised domain systems (10).</Text>
+                    <Text style={{fontStyle: "italic"}}>At its most basic, OpenAlias is a TXT DNS record on a FQDN
+                        (fully qualified domain name). By combining this
+                        with DNS-related technologies we have created an aliasing standard that is extensible for
+                        developers, intuitive
+                        and familiar for users, and can interoperate with both centralised and decentralised domain
+                        systems (10).</Text>
 
                     <Text>Hugin uses OpenAlias to make it easier for users to share their details with each other, by
                         connecting a user's Hugin address to a subdomain, such as hugin.xkr.se.</Text>
@@ -307,7 +319,8 @@ const WhitepaperPage = () => {
                         future goals is to bring a comprehensive API to developers, enabling the community to build
                         decentralized apps on Hugin.</Text>
                     <Text>Such apps could include, but are not limited to, a live and recorded video and music
-                        streaming service, e-commerce services, a trading service for using atomic swaps between XKR | BTC. The technology to enable the swaps are already available from COMIT
+                        streaming service, e-commerce services, a trading service for using atomic swaps between XKR |
+                        BTC. The technology to enable the swaps are already available from COMIT
                         Network (11). </Text>
 
                     <Text>To sum it up: Hugin can become a scalable Web3.0 protocol where developers can develop
@@ -342,7 +355,8 @@ const WhitepaperPage = () => {
                     <SubTitle>Sources</SubTitle>
                     <Source href="https://drewdevault.com/2018/08/08/Signal.html">1. Drewdevault</Source>
                     <Source href="https://signal.org/blog/looking-back-on-the-front">2. Signal</Source>
-                    <Source href="https://courses.cs.washington.edu/courses/csep590/05au/whitepaper_turnin/oss(10).pdf">3. Washington edu</Source>
+                    <Source href="https://courses.cs.washington.edu/courses/csep590/05au/whitepaper_turnin/oss(10).pdf">3.
+                        Washington edu</Source>
                     <Source href="https://bytecoin.org/old/whitepaper.pdf">4. Bytecoin</Source>
                     <Source href="https://nacl.cr.yp.to">5. NaCl</Source>
                     <Source href="https://tweetnacl.js.org/audits/cure53.pdf">6. TweetNaCl</Source>

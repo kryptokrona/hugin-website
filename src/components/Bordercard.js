@@ -23,14 +23,14 @@ const CardWrapper = styled.div`
   transition: all 250ms;
   background-color: #1d1d1d;
   gap: 10px;
-  
+
   @media screen and (max-width: 1029px) {
     flex-direction: row;
     gap: 30px;
   }
 
-  @media screen and (max-width: 400px) {
-    padding: 20px 20px;
+  @media screen and (max-width: 579px) {
+    padding: 0 20px;
   }
 `
 
@@ -46,7 +46,7 @@ const Card = styled.div`
   height: 280px;
   transition: all 250ms;
 
-  
+
   @media screen and (max-width: 1029px) {
     width: 90%;
     height: 200px;
@@ -79,14 +79,14 @@ const TextContent = styled.div`
     margin-left: 0;
 
   }
-  
+
 `
 
 const Title = styled.h4`
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  margin:0;
+  margin: 0;
   margin-top: 10px;
   color: white;
 `;
@@ -107,14 +107,14 @@ const CardImage = styled.img`
 
 
 const BorderCard = () => {
-    return(
+    return (
         <Section>
             <CardWrapper>
                 <Card>
                     <CardImage src={Bubble}/>
                     <TextContent>
                         <Title>Speak Freely</Title>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
                     </TextContent>
                 </Card>
                 <Card>

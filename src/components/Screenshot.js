@@ -31,7 +31,7 @@ const Image = styled.img`
 `
 
 const Screenshot = () => {
-    return(
+    return (
         <Section>
             <ImageWrapper>
                 <Image src={HuginImage}/>

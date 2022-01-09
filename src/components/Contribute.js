@@ -77,7 +77,7 @@ const Button = styled.a`
 
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.69);
+    background-color: #919191;
   }
 `
 
@@ -101,6 +101,11 @@ const Card = styled.div`
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   padding: 20px;
+  transition: 250ms;
+
+  &:hover {
+    border: 2px solid rgba(255, 255, 255, 0.65);
+  }
 
   @media screen and (max-width: 1029px) {
     width: 90%;
@@ -109,7 +114,7 @@ const Card = styled.div`
 const CardTextWrapper = styled.div`
 
 `
-const UserWrapper= styled.div`
+const UserWrapper = styled.div`
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -142,8 +147,8 @@ const Deletion = styled.p`
 `
 
 const RoundButton = styled.a`
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -151,14 +156,14 @@ const RoundButton = styled.a`
   align-items: center;
   transition: 250ms;
   color: #1d1d1d;
-  
+
   &:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.65);
     cursor: pointer;
   }
 `
 
-const Contribute =() => {
+const Contribute = () => {
 
     useEffect((file) => {
 
@@ -182,7 +187,7 @@ const Contribute =() => {
             });
     });
 
-    return(
+    return (
         <Section>
             <Wrapper>
                 <TextWrapper>

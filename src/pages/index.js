@@ -6,20 +6,21 @@ import BorderCard from "../components/Bordercard";
 import Roadmap from "../components/roadmap";
 import Features from "../components/Features";
 import HuginDesktop from "../components/HuginDesktop";
-
-
+import HuginMboile from "../components/HuginMboile";
 
 
 const Index = () => {
-  return(
-   <Layout>
-       <Hero/>
-       <BorderCard/>
-       <HuginDesktop/>
-       <Features/>
-       <Roadmap/>
-       <Download/>
-   </Layout>
-  )}
+    return (
+        <Layout>
+            <Hero/>
+            <BorderCard/>
+            <HuginDesktop/>
+            <Features/>
+            <HuginMboile/>
+            <Roadmap/>
+            <Download/>
+        </Layout>
+    )
+}
 
 export default Index
