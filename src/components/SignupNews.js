@@ -29,11 +29,11 @@ const Text = styled.h3`
 const Form = styled.form`
  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
 `
 
 const Email = styled.input`
+  padding-left: 10px;
   background-color: #1d1d1d;
   border: 1px solid #979797;
   border-radius: 5px;
@@ -47,6 +47,7 @@ const Button = styled.button`
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 12px 20px;
+  font-size: 1rem;
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
@@ -68,7 +69,7 @@ const NewsletterSignup = () => {
                 <Form name="Email Form" method="POST" data-netlify="true">
                     <input type="hidden" name="email" value="Email Form" />
                     <div>
-                        <label>Your Email:<Email type="email" name="email" /></label>
+                        <Email placeholder="Your email" type="email" name="email" />
                     </div>
                     <Button type="submit">Send</Button>
                 </Form>
