@@ -1,5 +1,6 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
+import {useEffect, useState} from "react";
 
 const Section = styled.div`
   background-color: #1d1d1d;
@@ -65,7 +66,7 @@ const NewsletterSignup = () => {
             <Wrapper>
                 <Text>Sign up to our Newsletter</Text>
                 <Form name="contact" method="POST" data-netlify="true">
-                    <Email type="email" name="email"/>
+                    <Email id="email" type="email" name="email" value="email"/>
                     <Button type="submit">Submit</Button>
                 </Form>
             </Wrapper>
