@@ -66,3 +66,17 @@ a {
         background-position: 60px 0;
     }
 }
+
+.hue {
+    animation: hue 5s ease infinite;
+}
+
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+
+}

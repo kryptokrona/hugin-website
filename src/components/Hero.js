@@ -117,7 +117,7 @@ const HuginCircle = styled.div`
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #5ff281;
+  background-color: #5f86f2;
 
   @media screen and (max-width: 1000px) {
     margin-bottom: 100px;
@@ -146,7 +146,7 @@ const Hero = () => {
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
-                    <Hugin src={HuginLogo}/>
+                    <Hugin color="#979797" src={HuginLogo}/>
                 </HuginCircle>
             </Container>
         </Section>

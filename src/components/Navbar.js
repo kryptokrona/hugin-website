@@ -69,6 +69,7 @@ const Rgb = styled.div`
   height: 2px;
   position: fixed;
   top: 0;
+  background-color: #5f86f2;
 `
 
 const Navbar = () => {
