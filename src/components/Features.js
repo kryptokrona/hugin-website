@@ -80,7 +80,7 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle><span style={{color: "#FFF"}}>🤙 </span> Voice & Video</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>📹 </span> Voice & Video</CardTitle>
                         <Text>Communicate with voice & video without the use of any intermediate server that process your data. Data is passed directly between peers. </Text>
                     </CardContent>
                 </Card>
