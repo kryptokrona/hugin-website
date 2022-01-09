@@ -139,7 +139,7 @@ const HuginMobile = () => {
                 <TextContent>
                     <SubTitle>Presenting</SubTitle>
                     <Title>Hugin Mobile</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
+                    <Text>Take the Hugin experience with you on the go with our brand new Hugin Mobile app!</Text>
                     <ButtonWrapper>
                         <Button href="#download">Download</Button>
                         <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
