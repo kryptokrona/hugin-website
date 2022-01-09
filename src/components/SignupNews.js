@@ -40,7 +40,8 @@ const Email = styled.input`
   width: 250px;
   height: 40px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
 `
 
 const Button = styled.button`
