@@ -65,9 +65,13 @@ const NewsletterSignup = () => {
         <Section>
             <Wrapper>
                 <Text>Sign up to our Newsletter</Text>
-                <Form name="contact" method="POST" data-netlify="true">
-                    <Email id="email" type="email" name="email" value="email"/>
-                    <Button type="submit">Submit</Button>
+                <Form name="email Form" method="POST" data-netlify="true">
+                    <input type="hidden" name="email" value="Contact Form" />
+                    <div>
+                        <label>Your Email:<Email type="email" name="email" /></label>
+
+                    </div>
+                    <Button type="submit">Send</Button>
                 </Form>
             </Wrapper>
         </Section>
