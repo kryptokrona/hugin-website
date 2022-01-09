@@ -43,6 +43,10 @@ const BadgeWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
 `
 
 const Playstore = styled.img`

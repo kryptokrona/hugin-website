@@ -35,44 +35,6 @@ const Container = styled.div`
   }
 `
 
-const GithubButton = styled.a`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-  border-radius: 5px;
-  background-color: #6e5494;
-  padding: 10px 10px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #fff;
-
-  &:hover {
-    cursor: pointer;
-    background-color: #919191;
-  }
-`
-
-const Button = styled.a`
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 15px 20px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #1d1d1d;
-  border: 1px solid;
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.8);
-`
-
 const TextContent = styled.div`
   max-width: 600px;
   padding-right: 30px;
@@ -123,12 +85,48 @@ const Screenshot = styled.img`
 `
 
 const ButtonWrapper = styled.div`
+  margin-top: 20px;
   display: flex;
+  flex-direction: row;
   gap: 10px;
-
   @media screen and (max-width: 1000px) {
     justify-content: center;
   }
+`
+
+const GithubButton = styled.a`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #6e5494;
+  padding: 10px 15px;
+  font-weight: 600;
+  transition: 250ms;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #919191;
+  }
+`
+
+const Button = styled.a`
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 15px;
+  font-weight: 600;
+  transition: 250ms;
+  text-decoration: none;
+  color: #1d1d1d;
+  border: 1px solid;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
 `
 
 const HuginMobile = () => {
@@ -142,9 +140,8 @@ const HuginMobile = () => {
                     <Text>Take the Hugin experience with you on the go with our brand new Hugin Mobile app!</Text>
                     <ButtonWrapper>
                         <Button href="#download">Download</Button>
-                        <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
+                        <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="1em"/></GithubButton>
                     </ButtonWrapper>
-
                 </TextContent>
             </Container>
         </Section>

@@ -83,7 +83,7 @@ const ButtonWrapper = styled.div`
 const Button = styled.a`
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6);
-  padding: 15px 20px;
+  padding: 10px 15px;
   font-weight: 600;
   transition: 250ms;
   text-decoration: none;
@@ -94,13 +94,12 @@ const Button = styled.a`
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.8);
 `
 const BorderButton = styled.a`
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: transparent;
-  padding: 15px 20px;
+  padding: 10px 15px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 600;
   transition: 250ms;
