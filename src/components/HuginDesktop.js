@@ -137,7 +137,7 @@ const HuginDesktop = () => {
                 <TextContent>
                     <SubTitle>Presenting</SubTitle>
                     <Title>Hugin Desktop</Title>
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
+                    <Text>A companion with all the newest features, download today.</Text>
                     <ButtonWrapper>
                         <Button href="#download">Download</Button>
                         <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
