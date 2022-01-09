@@ -43,7 +43,7 @@ const Email = styled.input`
   font-size: 18px;
 `
 
-const Button = styled.a`
+const Button = styled.button`
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 12px 20px;
@@ -65,11 +65,10 @@ const NewsletterSignup = () => {
         <Section>
             <Wrapper>
                 <Text>Sign up to our Newsletter</Text>
-                <Form name="email Form" method="POST" data-netlify="true">
-                    <input type="hidden" name="email" value="Contact Form" />
+                <Form name="Email Form" method="POST" data-netlify="true">
+                    <input type="hidden" name="email" value="Email Form" />
                     <div>
                         <label>Your Email:<Email type="email" name="email" /></label>
-
                     </div>
                     <Button type="submit">Send</Button>
                 </Form>
