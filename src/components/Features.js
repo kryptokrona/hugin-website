@@ -37,7 +37,6 @@ const Card = styled.div`
   border-radius: 8px;
   transition: all 250ms;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  cursor: none;
   
 
   @media screen and (max-width: 1000px) {
@@ -74,7 +73,7 @@ const Roadmap = () => {
                 <Card>
                     <CardContent>
                         <CardTitle><span style={{color: "#FFF"}}>🔒 </span>Private Messages</CardTitle>
-                        <Text>Every message is encrypted with leading assymetric encryption, specifically NaCl. Read more about the encryption here (https://nacl.cr.yp.to/) </Text>
+                        <Text>Every message is encrypted with leading assymetric encryption, specifically NaCl. Read more about the encryption <a style={{color: "#fff"}} href="https://nacl.cr.yp.to/">here</a>. </Text>
                     </CardContent>
 
                 </Card>
