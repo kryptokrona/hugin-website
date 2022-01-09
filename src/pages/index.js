@@ -6,6 +6,7 @@ import Roadmap from "../components/Roadmap";
 import Features from "../components/Features";
 import HuginDesktop from "../components/HuginDesktop";
 import HuginMboile from "../components/HuginMboile";
+import NewsletterSignup from "../components/SignupNews";
 
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
             <Hero/>
             <Features/>
             <HuginDesktop/>
+            <NewsletterSignup/>
             <HuginMboile/>
             <Roadmap/>
             <Download/>
