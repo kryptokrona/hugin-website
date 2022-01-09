@@ -53,12 +53,6 @@ const CardContent = styled.div`
 padding: 20px;
 `
 
-const Title = styled.h2`
-  color: rgb(151, 151, 151);
-  font-weight: 400;
-  margin-bottom: 100px;
-`
-
 const CardTitle = styled.h3`
   margin: 0;
   font-weight: 200;
