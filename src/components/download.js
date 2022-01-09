@@ -1,9 +1,9 @@
 import * as React from 'react'
-
 import "../theme/style.css"
 import {FaApple, FaLinux, FaWindows} from "react-icons/all";
 import styled from "@emotion/styled";
 import {useEffect} from "react";
+import PlayBadge from '../images/Playbadge.png'
 
 const Section = styled.div`
   display: flex;

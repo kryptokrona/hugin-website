@@ -12,6 +12,10 @@ const Section = styled.div`
   background-color: #1d1d1d;
   padding-top: 15em;
   padding-bottom: 10em;
+
+  @media screen and (max-width: 579px) {
+    padding-top: 12em;
+  }
 `
 
 const Container = styled.div`

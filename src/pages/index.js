@@ -13,9 +13,8 @@ const Index = () => {
     return (
         <Layout>
             <Hero/>
-            <BorderCard/>
-            <HuginDesktop/>
             <Features/>
+            <HuginDesktop/>
             <HuginMboile/>
             <Roadmap/>
             <Download/>

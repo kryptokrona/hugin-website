@@ -7,7 +7,7 @@ const Section = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 0;
 `
 
 const Wrapper = styled.div`
@@ -74,11 +74,9 @@ const Text = styled.p`
 const Roadmap = () => {
     return (
         <Section>
-            <Title>Features</Title>
             <Wrapper>
 
-                <Card style={{borderColor: "#5f86f2"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle> 🔒 Private Messages</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
@@ -86,40 +84,35 @@ const Roadmap = () => {
 
                 </Card>
 
-                <Card style={{borderColor: "#a65ff2"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle> 🤙 Voice & Video</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
                     </CardContent>
                 </Card>
 
-                <Card style={{borderColor: "#f25fd0"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle> 🗂 Unlimited Sharing</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
                     </CardContent>
                 </Card>
 
-                <Card style={{borderColor: "#f25f61"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle>🐥 Social Network</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
                     </CardContent>
                 </Card>
 
-                <Card style={{borderColor: "#f2cb5f"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle>😎 Ungovernable</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
                     </CardContent>
                 </Card>
 
-                <Card style={{borderColor: "#5FF281"}}>
-
+                <Card>
                     <CardContent>
                         <CardTitle>😎 Hashtags</CardTitle>
                         <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
