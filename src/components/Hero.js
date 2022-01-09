@@ -135,10 +135,8 @@ const Hero = () => {
                 <TextContent>
                     <SubTitle>Powered by Kryptokrona</SubTitle>
                     <Title>Welcome to Hugin Messenger</Title>
-                    <Text>Hugin is a messaging service where messages are stored on the kryptokrona blockchain. Your
-                        messages are secured with industry leading encryption so that only you and your chat partner
-                        have
-                        the possibility to read them.</Text>
+                    <Text>Hugin puts your privacy first. By the use of military grade encryption, your messages are safe from the praying eyes of others.
+                        Hugin uses the decentralized structure that makes cryptocurrencies work, meaning that the system cannot be taken down or be controlled by any one entity.</Text>
                     <ButtonWrapper>
                         <Button href="#download">Download</Button>
                         <BorderButton href="/whitepaper">Whitepaper</BorderButton>

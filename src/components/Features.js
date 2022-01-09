@@ -32,7 +32,7 @@ const Card = styled.div`
   justify-content: space-between;
   box-sizing: border-box;
   background-color: transparent;
-  height: 180px;
+  height: 220px;
   width: 30%;
   border-radius: 8px;
   transition: all 250ms;
@@ -74,7 +74,7 @@ const Roadmap = () => {
                 <Card>
                     <CardContent>
                         <CardTitle> 🔒 Private Messages</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Every message is encrypted with leading assymetric encryption, specifically NaCl. Read more about the encryption here (https://nacl.cr.yp.to/) </Text>
                     </CardContent>
 
                 </Card>
@@ -82,35 +82,35 @@ const Roadmap = () => {
                 <Card>
                     <CardContent>
                         <CardTitle> 🤙 Voice & Video</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Communicate with voice & video without the use of any intermediate server that process your data. Data is passed directly between peers. </Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
                         <CardTitle> 🗂 Unlimited Sharing</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Share without looking at the file size. This feature is powered by Bittorrent technology, which is the leading peer-to-peer file sharing protocol</Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
                         <CardTitle>🐥 Social Network</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Hugin Boards, the next step in the evolution of social media. Instead of likes, you have tips, instead of censorship, you have freedom of speech!</Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
                         <CardTitle>😎 Ungovernable</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <Text>Hugin cannot be taken down or be be censored, and most importantly Hugin does not function without you! </Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle>😎 Hashtags</CardTitle>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </Text>
+                        <CardTitle>🥰 Open-source</CardTitle>
+                        <Text>Our source code is open for everyone to view and our community is open for anyone interested in contributing. </Text>
                     </CardContent>
                 </Card>
 
