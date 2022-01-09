@@ -12,10 +12,6 @@ const Nav = styled.div`
   position: fixed;
   margin-top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-
-  @media screen and (max-width: 579px) {
-    bottom: 0;
-  }
 `
 
 const NavWrapper = styled.div`

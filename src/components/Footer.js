@@ -10,10 +10,6 @@ const Section = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media screen and (max-width: 579px) {
-    margin-bottom: 80px;
-  }
 `
 
 const Container = styled.div`
