@@ -46,12 +46,12 @@ const BadgeWrapper = styled.div`
 `
 
 const Playstore = styled.img`
-  height: 60px;
+  height: 68px;
 `
 
 const Appstore = styled.img`
-  opacity: 50%;
-  height: 40px;
+  opacity: 40%;
+  height: 48px;
 `
 
 
