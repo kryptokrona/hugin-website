@@ -80,7 +80,7 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle><span style={{color: "#FFF"}}>🤙 </span> Voice & Video</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>📹 </span> Voice & Video</CardTitle>
                         <Text>Communicate with voice & video without the use of any intermediate server that process your data. Data is passed directly between peers. </Text>
                     </CardContent>
                 </Card>
@@ -94,14 +94,14 @@ const Roadmap = () => {
 
                 <Card>
                     <CardContent>
-                        <CardTitle><span style={{color: "#FFF"}}>🐥 </span> Social Network</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>🌐 </span> Social Network</CardTitle>
                         <Text>Hugin Boards, the next step in the evolution of social media. Instead of likes, you have tips, instead of censorship, you have freedom of speech!</Text>
                     </CardContent>
                 </Card>
 
                 <Card>
                     <CardContent>
-                        <CardTitle><span style={{color: "#FFF"}}>👑 </span> Ungovernable</CardTitle>
+                        <CardTitle><span style={{color: "#FFF"}}>📡 </span> Ungovernable</CardTitle>
                         <Text>Hugin cannot be taken down or be be censored, and most importantly Hugin does not function without you! </Text>
                     </CardContent>
                 </Card>
