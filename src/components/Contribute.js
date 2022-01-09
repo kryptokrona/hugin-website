@@ -60,7 +60,7 @@ const Text = styled.p`
   font-family: 'Roboto Mono', monospace;
 `
 
-const Button = styled.a`
+const GithubButton = styled.a`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -196,7 +196,7 @@ const Contribute = () => {
                         for example make changes to this site, suggest awesome new features,
                         or help us squash bugs. Not a developer? No worries, there's tons of
                         things to do!</Text>
-                    <Button href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></Button>
+                    <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
                 </TextWrapper>
                 <CardWrapper>
                     <SubTitle>Latest Commit</SubTitle>

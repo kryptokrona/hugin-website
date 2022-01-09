@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import HuginMessenger from '../images/HuginMessenger.png';
+import {FaGithub} from "react-icons/all";
 
 
 const Section = styled.div`
@@ -32,6 +33,44 @@ const Container = styled.div`
   @media screen and (max-width: 1000px) {
     flex-direction: column;
   }
+`
+
+const GithubButton = styled.a`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #6e5494;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: 250ms;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #919191;
+  }
+`
+
+const Button = styled.a`
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 20px;
+  font-weight: 600;
+  transition: 250ms;
+  text-decoration: none;
+  color: #1d1d1d;
+  border: 1px solid;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
 `
 
 const TextContent = styled.div`
@@ -90,6 +129,10 @@ const HuginDesktop = () => {
                     <SubTitle>Presenting</SubTitle>
                     <Title>Hugin Desktop</Title>
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</Text>
+                    <div style={{display: "flex", gap: "10px"}}>
+                        <Button href="#download">Download</Button>
+                        <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
+                    </div>
                 </TextContent>
                 <Screenshot src={HuginMessenger}/>
             </Container>
