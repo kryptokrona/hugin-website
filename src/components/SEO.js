@@ -12,6 +12,7 @@ const Seo = () => {
                         the possibility to read them."/>
             <meta name="theme-color" content="#1d1d1d"/>
             <meta name="robots" content="index, follow"/>
+            <meta name="google-site-verification" content="ko52AFJlworyGWhg_fZWyRbf4abZsVCfRabcUF_Nh3g" />
             <link rel="canonical" href="http://hugin.chat/"/>
             <script defer data-domain="hugin.chat" src="https://plausible.io/js/plausible.js"></script>
             <link rel="icon" src="../images/favicon.ico" type="image/x-icon"></link>
