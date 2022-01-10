@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from "@emotion/styled";
 import Layout from "../components/Layout";
 import Fig from '../images/fig1.png'
+import Fillbutton from "../components/buttons/Button";
 
 const Section = styled.div`
   background-color: #1d1d1d;
@@ -24,20 +25,14 @@ const Wrapper = styled.div`
   }
 `
 
-const Button = styled.a`
-  border-radius: 5px;
-  width: 100px;
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 15px 20px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #1d1d1d;
-  margin-top: 3rem;
-
-  &:hover {
-    cursor: pointer;
-    box-shadow: 0 0 10px #fff;
+const ButtonWrapper = styled.div`
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
   }
 `
 
@@ -368,7 +363,9 @@ const WhitepaperPage = () => {
                     <Source href="https://github.com/kryptokrona/hugin-messenger">12. Github Hugin Messenger</Source>
                     <Source href="https://github.com/kryptokrona/hugin-mobile">13. Github Hugin Mobile</Source>
 
-                    <Button href="https://kryptokrona.se/Hugin_Whitepaper.pdf">Get as PDF</Button>
+                    <ButtonWrapper>
+                        <Fillbutton text="Get as pdf" url="https://kryptokrona.se/Hugin_Whitepaper.pdf"/>
+                    </ButtonWrapper>
 
                 </Wrapper>
             </Section>
