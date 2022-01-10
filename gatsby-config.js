@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://hugin.chat',
-        sitemap: 'https://www.hugin,chat/sitemap.xml',
+        sitemap: 'https://www.hugin.chat/sitemap-0.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
