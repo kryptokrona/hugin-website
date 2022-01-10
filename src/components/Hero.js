@@ -108,7 +108,7 @@ const Hero = () => {
                 <TextContent>
                     <SubTitle>Powered by Kryptokrona</SubTitle>
                     <Title>Welcome to Hugin Messenger</Title>
-                    <Text>Hugin puts your privacy first. By the use of military grade encryption, your messages are safe from the praying eyes of others.
+                    <Text>Hugin puts your privacy first. By the use of military grade encryption, your messages are safe from the prying eyes of others.
                         Hugin uses the decentralized structure that makes cryptocurrencies work, meaning that the system cannot be taken down or be controlled by any one entity.</Text>
                     <ButtonWrapper>
                         <Fillbutton text="Download" url="#download"/>
