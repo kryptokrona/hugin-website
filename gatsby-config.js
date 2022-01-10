@@ -4,14 +4,27 @@ module.exports = {
     title: "Hugin Messenger",
   },
   plugins: [
-      "gatsby-plugin-sitemap",
     "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://hugin.chat',
+        sitemap: 'https://www.hugin,chat/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/'
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/favicon.ico",
       },
     },
     "gatsby-plugin-mdx",
