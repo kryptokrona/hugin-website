@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import {FaGithub} from "react-icons/all";
 import {useEffect} from "react";
+import Githubbutton from "./buttons/Githubbutton";
 
 const Section = styled.div`
   background-color: #1d1d1d;
@@ -33,6 +33,8 @@ const Wrapper = styled.div`
 const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  
+  justify-content: start;
   gap: 10px;
   width: 50%;
 
@@ -40,6 +42,17 @@ const TextWrapper = styled.div`
     text-align: center;
     align-items: center;
     width: 100%;
+  }
+`
+
+const ButtonWrapper = styled.div`
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
   }
 `
 
@@ -58,27 +71,6 @@ const SubTitle = styled.h2`
 const Text = styled.p`
   color: rgba(255, 255, 255, 0.5);
   font-family: 'Roboto Mono', monospace;
-`
-
-const GithubButton = styled.a`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-  border-radius: 5px;
-  background-color: #6e5494;
-  padding: 10px 20px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #fff;
-
-  &:hover {
-    cursor: pointer;
-    background-color: #919191;
-  }
 `
 
 const CardWrapper = styled.div`
@@ -196,7 +188,9 @@ const Contribute = () => {
                         for example make changes to this site, suggest awesome new features,
                         or help us squash bugs. Not a developer? No worries, there's tons of
                         things to do!</Text>
-                    <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="2em"/></GithubButton>
+                    <ButtonWrapper>
+                        <Githubbutton text="Github" url="https://github.com/kryptokrona/hugin-messenger"/>
+                    </ButtonWrapper>
                 </TextWrapper>
                 <CardWrapper>
                     <SubTitle>Latest Commit</SubTitle>

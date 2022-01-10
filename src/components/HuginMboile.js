@@ -1,7 +1,8 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import Mobile from '../images/HuginMobile.png';
-import {FaGithub} from "react-icons/all";
+import Fillbutton from "./buttons/Button";
+import Githubbutton from "./buttons/Githubbutton";
 
 
 const Section = styled.div`
@@ -94,41 +95,6 @@ const ButtonWrapper = styled.div`
   }
 `
 
-const GithubButton = styled.a`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 5px;
-  background-color: #6e5494;
-  padding: 10px 15px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #fff;
-
-  &:hover {
-    cursor: pointer;
-    background-color: #919191;
-  }
-`
-
-const Button = styled.a`
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 10px 15px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #1d1d1d;
-  border: 1px solid;
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    cursor: pointer;
-`
-
 const HuginMobile = () => {
     return (
         <Section>
@@ -139,8 +105,8 @@ const HuginMobile = () => {
                     <Title>Hugin Mobile</Title>
                     <Text>Take the Hugin experience with you on the go with our brand new Hugin Mobile app!</Text>
                     <ButtonWrapper>
-                        <Button href="#download">Download</Button>
-                        <GithubButton href="https://github.com/kryptokrona/">Github <FaGithub size="1em"/></GithubButton>
+                        <Fillbutton text="Download" url="#download"/>
+                        <Githubbutton text="Github" url="https://github.com/kryptokrona/hugin-messenger"/>
                     </ButtonWrapper>
                 </TextContent>
             </Container>

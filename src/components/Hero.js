@@ -1,6 +1,8 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import HuginLogo from '../images/Hugin.png';
+import Fillbutton from "./buttons/Button";
+import Borderbutton from "./buttons/Borderbutton";
 
 
 const Section = styled.div`
@@ -75,40 +77,9 @@ const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
+  
   @media screen and (max-width: 1000px) {
     justify-content: center;
-  }
-`
-
-const Button = styled.a`
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 10px 15px;
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-  color: #1d1d1d;
-  border: 1px solid;
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    cursor: pointer;
-`
-const BorderButton = styled.a`
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background-color: transparent;
-  padding: 10px 15px;
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 600;
-  transition: 250ms;
-  text-decoration: none;
-
-  &:hover {
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    color: rgba(255, 255, 255, 0.8);
   }
 `
 
@@ -140,8 +111,8 @@ const Hero = () => {
                     <Text>Hugin puts your privacy first. By the use of military grade encryption, your messages are safe from the praying eyes of others.
                         Hugin uses the decentralized structure that makes cryptocurrencies work, meaning that the system cannot be taken down or be controlled by any one entity.</Text>
                     <ButtonWrapper>
-                        <Button href="#download">Download</Button>
-                        <BorderButton href="/whitepaper">Whitepaper</BorderButton>
+                        <Fillbutton text="Download" url="#download"/>
+                        <Borderbutton text="Whitepaper" url="/whitepaper"/>
                     </ButtonWrapper>
                 </TextContent>
                 <HuginCircle className="rgb">
