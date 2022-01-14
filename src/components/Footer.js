@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
 import {FaDiscord, FaTelegram, FaTwitter} from 'react-icons/fa'
+import analytics from '../images/Analytics.png'
 
 const Section = styled.footer`
   border-top: 1px solid rgba(255, 255, 255, 0.13);
@@ -42,9 +43,13 @@ const ListWrapper = styled.div`
 const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
 
   @media screen and (max-width: 580px) {
+    gap: 15px;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
   }
 `
@@ -54,7 +59,7 @@ const SocialsWrapper = styled.div`
   flex-direction: row;
   gap: 20px;
   justify-content: end;
-  margin-top: 20px;
+  margin: 20px 0;
 
   @media screen and (max-width: 580px) {
     justify-content: center;
@@ -94,7 +99,7 @@ const SubTitle = styled.p`
   margin: 0;
   text-align: end;
 
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 579px) {
     text-align: center;
   }
 `
@@ -119,7 +124,7 @@ const Footer = () => {
                     </NavList>
                 </ListWrapper>
                 <ContentWrapper>
-                    <>
+                    <div>
                         <SubTitle>Powered by Kryptokrona</SubTitle>
                         <SocialsWrapper>
                             <a href="https://twitter.com/kryptokrona"><FaTwitter aria-label="Twitter" size="1.5em"
@@ -129,7 +134,9 @@ const Footer = () => {
                             <a href="https://t.me/xkrofficial"><FaTelegram aria-label="Telegram" size="1.5em"
                                                                            color="#FFFFFF87"/></a>
                         </SocialsWrapper>
-                    </>
+                    </div>
+                    <img alt="Netlify-status" height="20px" src="https://api.netlify.com/api/v1/badges/acc82ef7-8d8d-4b69-8eab-0a332b648be2/deploy-status"/>
+                    <a href="https://plausible.io/hugin.chat"><img alt="Plausible-logo" height="20px" src={analytics}/></a>
                 </ContentWrapper>
             </Container>
         </Section>
