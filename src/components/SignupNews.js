@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from "@emotion/styled";
-import {useEffect, useState} from "react";
 
 const Section = styled.div`
   background-color: #1d1d1d;

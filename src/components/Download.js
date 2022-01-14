@@ -96,7 +96,7 @@ const Download = () => {
                 </Wrapper>
                 <BadgeWrapper>
                     <a style={{display: "flex", justifyContent: "center"}} href="https://play.google.com/apps/testing/com.hugin"><Playstore aria-label="Download Android" src={Playstorebadge}/></a>
-                    <a style={{display: "flex", justifyContent: "center"}} href="#"><Appstore aria-label="Download iOS" src={Appstorebadge}/></a>
+                    <a style={{display: "flex", justifyContent: "center"}}><Appstore aria-label="Download iOS" src={Appstorebadge}/></a>
                 </BadgeWrapper>
             </Container>
         </Section>
