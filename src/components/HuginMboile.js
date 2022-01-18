@@ -106,7 +106,7 @@ const HuginMobile = () => {
                     <Text>Take the Hugin experience with you on the go with our brand new Hugin Mobile app!</Text>
                     <ButtonWrapper>
                         <Fillbutton text="Download" url="#download"/>
-                        <Githubbutton text="Github" url="https://github.com/kryptokrona/hugin-messenger"/>
+                        <Githubbutton text="Github" url="https://github.com/kryptokrona/hugin-mobile"/>
                     </ButtonWrapper>
                 </TextContent>
             </Container>
