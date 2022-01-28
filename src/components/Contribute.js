@@ -4,6 +4,7 @@ import {useEffect} from "react";
 import Githubbutton from "./buttons/Githubbutton";
 
 const Section = styled.div`
+  box-sizing: border-box;
   background-color: #1d1d1d;
   display: flex;
   flex-direction: column;
@@ -33,7 +34,6 @@ const Wrapper = styled.div`
 const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  
   justify-content: start;
   gap: 10px;
   width: 50%;
@@ -104,8 +104,12 @@ const Card = styled.div`
   }
 `
 const CardTextWrapper = styled.div`
-
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 `
+
+
 const UserWrapper = styled.div`
   display: flex;
   align-items: end;
@@ -126,6 +130,7 @@ const CommitTitle = styled.h3`
   margin: 0;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
+  
 `
 
 const Addition = styled.p`
