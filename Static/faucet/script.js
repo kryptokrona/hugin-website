@@ -6,7 +6,7 @@ function enableBtn() {
     submit.classList.add('enabled')
 }
 
-fetch('https://blocksum.org:8083/faucet/balance')
+fetch('https://blocksum.org/faucet/balance')
     .then(res => res.json())
     .then(data => {
             if(data.balance === "ok") {
@@ -22,7 +22,7 @@ submit.addEventListener('click', async e => {
         "captcha": captcha
     }
     let json = JSON.stringify(value)
-    await fetch("https://blocksum.org:8083/faucet/send", {
+    await fetch("https://blocksum.org/faucet/send", {
         "method": "POST",
         "headers": {
             "Content-Type": "application/json"

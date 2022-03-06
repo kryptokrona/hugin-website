@@ -80,3 +80,11 @@ a {
     }
 
 }
+
+.enabled {
+    background-color: #2fff6a;
+    border: 1px solid rgb(0, 245, 84);
+    border-left: none;
+    color: #1d1d1d;
+    box-shadow: 0 0 20px #00ec36;
+}
