@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faucet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<div class="root">
+    <div></div>
+    <div class="wrapper">
+        <h1>Claim XKR</h1>
+        <form class="form" action="?" method="POST">
+            <input class="input" id="address" placeholder="Enter your address">
+            <button class="button" type="submit" id="btn" disabled="disabled">Submit</button>
+            <div class="g-recaptcha" id="captcha" data-sitekey="6LeuuboeAAAAALFj2PEADpIc2jZwLYQOa3R3iiCR" data-theme="dark" data-callback="enableBtn"></div>
+        </form>
+        <p id="balance"></p>
+        <p id="status"></p>
+    </div>
+    <div class="refill">
+        <img src="./logo.webp" height="36px">
+    </div>
+</div>
+
+
+<script defer src="script.js"></script>
+</body>
+</html>
