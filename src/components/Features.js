@@ -102,7 +102,7 @@ const Roadmap = () => {
                 <Card>
                     <CardContent>
                         <CardTitle><span style={{color: "#FFF"}}>📡 </span> Ungovernable</CardTitle>
-                        <Text>Hugin cannot be taken down or be be censored, and most importantly Hugin does not function without you! </Text>
+                        <Text>Hugin cannot be taken down or be censored, and most importantly Hugin does not function without you! </Text>
                     </CardContent>
                 </Card>
 
