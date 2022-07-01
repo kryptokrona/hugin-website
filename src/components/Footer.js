@@ -120,7 +120,7 @@ const Footer = () => {
                         <NavTitle>Hugin</NavTitle>
                         <a href="https://kryptokrona.se/Hugin_Whitepaper.pdf"><ListItem>Whitepaper</ListItem></a>
                         <a href="https://github.com/kryptokrona"><ListItem>Github</ListItem></a>
-                        <a href="https://freiexchange.com/market/XKR/BTC"><ListItem>Refill</ListItem></a>
+                        <a href="https://kryptokrona.org/faucet"><ListItem>Refill</ListItem></a>
                     </NavList>
                 </ListWrapper>
                 <ContentWrapper>
