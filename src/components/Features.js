@@ -73,7 +73,7 @@ const Roadmap = () => {
                 <Card>
                     <CardContent>
                         <CardTitle><span style={{color: "#FFF"}}>🔒 </span>Private Messages</CardTitle>
-                        <Text>Every message is encrypted with leading assymetric encryption, specifically NaCl. Read more about the encryption <a style={{color: "#fff"}} href="https://nacl.cr.yp.to/">here</a>. </Text>
+                        <Text>Every message is encrypted with leading asymmetric encryption, specifically NaCl. Read more about the encryption <a style={{color: "#fff"}} href="https://nacl.cr.yp.to/">here</a>. </Text>
                     </CardContent>
 
                 </Card>
